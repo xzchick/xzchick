@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./envy-banner.svg" width="100%" alt="ENVY animated banner with neon pink and cyan galaxy glows, twinkling stars, and subtle orbital motion" />
+</p>
+
 ## Hi there 👋
 
 <!--
