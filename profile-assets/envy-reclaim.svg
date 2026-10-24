@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="200" viewBox="0 0 720 200" role="img" aria-labelledby="title description">
+  <title id="title">Reclaim</title>
+  <desc id="description">Recovery, one block at a time. An ENVY recovery tool card in luminous pink and cyan over a dark galaxy.</desc>
+  <defs>
+    <linearGradient id="edge"><stop stop-color="#ff3db4" stop-opacity=".65"/><stop offset=".5" stop-color="#ac8cff" stop-opacity=".2"/><stop offset="1" stop-color="#35e8ff" stop-opacity=".5"/></linearGradient>
+    <radialGradient id="cloud"><stop stop-color="#9e1b75" stop-opacity=".4"/><stop offset="1" stop-color="#050713" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cyan"><stop stop-color="#0d5666" stop-opacity=".25"/><stop offset="1" stop-color="#050713" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="718" height="198" rx="20"/></clipPath>
+  </defs>
+  <style>.signal{animation:pulse 8s ease-in-out -3s infinite}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:.95}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}</style>
+  <g clip-path="url(#clip)">
+    <rect width="720" height="200" fill="#050713"/>
+    <ellipse cx="640" cy="100" rx="240" ry="170" fill="url(#cloud)"/>
+    <ellipse cx="100" cy="190" rx="320" ry="200" fill="url(#cyan)"/>
+    <g fill="#d6b6e7" opacity=".3"><circle cx="445" cy="26" r="1"/><circle cx="562" cy="171" r="1"/><circle cx="680" cy="43" r="1.2"/><circle cx="398" cy="176" r=".8"/><circle cx="672" cy="161" r=".7"/></g>
+    <g stroke="#ff3db4" fill="none"><circle cx="626" cy="101" r="60" stroke-opacity=".17"/><circle cx="626" cy="101" r="77" stroke-opacity=".09"/><circle cx="626" cy="101" r="34" stroke-opacity=".3"/></g>
+    <path class="signal" d="M549 101h13m-6-7v14m140-7h-13m6-7v14" fill="none" stroke="#ff8ed5" stroke-width="1.5"/>
+    <path d="M610 117 642 85M619 85h23v23" fill="none" stroke="#ffbae8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="34" y="43" font-size="16" letter-spacing="2.6" font-weight="600" fill="#ff87d2">02 / RECOVERY TOOL</text>
+      <text x="32" y="99" font-size="39" letter-spacing="1.2" font-weight="700" fill="#f2f4ff">RECLAIM</text>
+      <text x="34" y="142" font-size="24" fill="#b9c3df">Recovery, one block at a time</text>
+    </g>
+    <path d="M34 173h55" stroke="#35e8ff" stroke-width="2"/>
+    <path d="M95 173h24" stroke="#ac8cff" stroke-opacity=".4" stroke-width="2"/>
+  </g>
+  <rect x=".75" y=".75" width="718.5" height="198.5" rx="20" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>
