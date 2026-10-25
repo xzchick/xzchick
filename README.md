@@ -35,6 +35,33 @@
   </tr>
 </table>
 
+## ✧ Inside the builds
+
+Actual development screenshots from BLACK VEIL. Click an image for a closer look.
+
+### RECLAIM · Recovery, one block at a time
+
+[![Reclaim development interface with a pink recovery map](./reclaim-development.png)](./reclaim-development.png)
+
+<sub>Development preview · Synthetic test data demonstrates read-complete, error, and untried ranges. This is a display test, not a real disk recovery result.</sub>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>⌘ COMMAND CENTER</b><br /><br />
+      <a href="./command-center-development.png"><img src="./command-center-development.png" width="100%" alt="BLACK VEIL Command Center development interface" /></a>
+      <p>A searchable home for the suite, with application launchers, system actions, and an output panel.</p>
+      <sub>Development preview · Idle interface; no action running.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>▦ OPS DESK</b><br /><br />
+      <a href="./ops-desk-development.png"><img src="./ops-desk-development.png" width="100%" alt="Ops Desk development interface with a sample planning task" /></a>
+      <p>Encrypted local planning with assignments, role aliases, progress, and check-ins.</p>
+      <sub>Development preview · Sample task and test data.</sub>
+    </td>
+  </tr>
+</table>
+
 ## ⌘ Inside BLACK VEIL
 
 <p>Purpose-built tools sharing one dark, neon interface. These are part of my development suite; Linux desktop and workflow testing is ongoing.</p>
@@ -97,4 +124,5 @@
 <p align="center">
   <img src="./profile-assets/envy-signoff.svg" width="100%" alt="Stay a little cosmic" />
 </p>
+
 
