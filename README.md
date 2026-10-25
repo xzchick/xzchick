@@ -8,9 +8,9 @@
 </p>
 
 <p align="center">
-  I'm <b>Envy</b> — the mind behind <b>ENVY BLACK VEIL</b>.<br />
-  I turn curiosity into Linux tools: custom desktops, privacy workflows,<br />
-  recovery maps, and a command center with a neon soul.<br /><br />
+  I'm <b>Envy</b> — curious mind, neon soul, always tinkering.<br />
+  I chase strange ideas, explore what Linux can do, and make things my own.<br />
+  Drawn to privacy, recovery, and the little details that make a system feel personal.<br /><br />
   <i>A little shell magic. A lot of curiosity. I still eat glitter. ✨</i><br /><br />
   <code>printf '%s\n' '✦ stardust in the shell ✦'</code>
 </p>
@@ -97,3 +97,4 @@
 <p align="center">
   <img src="./profile-assets/envy-signoff.svg" width="100%" alt="Stay a little cosmic" />
 </p>
+
