@@ -17,6 +17,8 @@
 
 ## ✦ Current builds
 
+**[Explore ENVY BLACK VEIL →](https://github.com/xzchick/envy-black-veil)** · Project preview, screenshots, features, and roadmap.
+
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -124,5 +126,6 @@ Actual development screenshots from BLACK VEIL. Click an image for a closer look
 <p align="center">
   <img src="./profile-assets/envy-signoff.svg" width="100%" alt="Stay a little cosmic" />
 </p>
+
 
 
