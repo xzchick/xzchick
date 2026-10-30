@@ -1,68 +1,94 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xzchick/xzchick/main/envy-banner-animated.svg" width="100%" alt="ENVY — animated neon pink and cyan galaxy banner" />
+  <img src="./envy-banner-animated.svg" width="100%" alt="ENVY — a different frequency, in neon pink and cyan" />
 </p>
 
 <p align="center">
-  <b>LINUX &nbsp; / &nbsp; SYSTEM TOOLS &nbsp; / &nbsp; RECOVERY &nbsp; / &nbsp; PRIVACY</b><br />
-  <sub>A DIFFERENT FREQUENCY. A SYSTEM OF MY OWN.</sub>
+  <b>LOCAL AI &nbsp; / &nbsp; LINUX &nbsp; / &nbsp; RECOVERY &nbsp; / &nbsp; PRIVACY</b>
 </p>
 
 <p align="center">
-  I'm <b>Envy</b> — curious mind, neon soul, always tinkering.<br />
-  I chase strange ideas, explore what Linux can do, and make things my own.<br />
-  Drawn to privacy, recovery, and the little details that make a system feel personal.<br /><br />
-  <i>A little shell magic. A lot of curiosity. I still eat glitter. ✨</i><br /><br />
-  <code>printf '%s\n' '✦ stardust in the shell ✦'</code>
+  <a href="#-featured-envy-terminal">Terminal AI</a> &nbsp; · &nbsp;
+  <a href="#-the-black-veil-workshop">BLACK VEIL</a> &nbsp; · &nbsp;
+  <a href="#-find-me-elsewhere">Find me</a>
 </p>
 
-## ✦ Current builds
+<p align="center">
+  I'm <b>Envy</b> — a curious mind building tools with a little neon and a lot of intention.<br />
+  Local intelligence, systems worth exploring, and a way back when something breaks.<br /><br />
+  <i>A little shell magic. I still eat glitter. ✨</i>
+</p>
 
-**[Explore ENVY BLACK VEIL →](https://github.com/xzchick/envy-black-veil)** · Project preview, screenshots, features, and roadmap.
+---
+
+## ✦ Featured: ENVY Terminal
+
+<a href="https://github.com/xzchick/envy-terminal"><img src="https://raw.githubusercontent.com/xzchick/envy-terminal/main/docs/assets/hero.svg" width="100%" alt="ENVY Terminal — local AI, your documents, and evidence you can inspect" /></a>
+
+**My AI workspace, entirely in Terminal.** Fast local answers, a deeper Fable mode, searchable documents, and research with sources you can inspect.
+
+<table>
+  <tr>
+    <td width="33%" valign="top"><b>⌘ THINK LOCALLY</b><p>Switch between quick everyday chat and detailed work. Models run on your Mac.</p><code>/fast</code> &nbsp; <code>/deep</code></td>
+    <td width="33%" valign="top"><b>▧ FOLLOW THE EVIDENCE</b><p>Search PDFs, read scanned pages with local OCR, and distinguish facts from allegations.</p><code>/library-find</code> &nbsp; <code>/check</code></td>
+    <td width="33%" valign="top"><b>◇ KEEP CONTROL</b><p>Save chats deliberately, choose what to remember, and turn web research off.</p><code>/chat-save</code> &nbsp; <code>/offline</code></td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/xzchick/envy-terminal"><b>Explore ENVY Terminal →</b></a> &nbsp; · &nbsp;
+  <a href="https://github.com/xzchick/envy-terminal/blob/main/docs/SETUP.md">Install it</a> &nbsp; · &nbsp;
+  <a href="https://github.com/xzchick/envy-terminal/blob/main/docs/COMMANDS.md">Command guide</a>
+</p>
+
+<details>
+<summary><b>See it in Terminal</b></summary>
+<br />
+<img src="https://raw.githubusercontent.com/xzchick/envy-terminal/main/docs/assets/terminal-demo.png" width="100%" alt="ENVY Terminal indexing and searching a fictional local document" />
+
+<sub>Illustrative terminal render using a fictional fixture and real indexing output. No personal documents or account information are shown.</sub>
+</details>
+
+<sub>macOS-first · Python · Ollama · SQLite · Vision OCR · Local inference has no provider token bill. Online research still contacts external sources; model answers require verification.</sub>
+
+## ✧ The BLACK VEIL workshop
+
+A Linux environment and a growing set of tools for system visibility, recovery, and deliberate control.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="./profile-assets/envy-black-veil.svg" width="100%" alt="BLACK VEIL — a Linux world of my own. In development." />
-      <p>My custom <b>AlmaLinux + KDE Plasma</b> environment: a cohesive desktop with its own identity, searchable utilities, live command output, and tools for privacy, recovery, and everyday system control. From <code>uname -r</code> to a desktop that feels like mine.</p>
+      <a href="https://github.com/xzchick/envy-black-veil"><img src="./profile-assets/envy-black-veil.svg" width="100%" alt="ENVY BLACK VEIL — Linux desktop and system tools" /></a>
+      <p><b>A desktop with its own identity.</b> AlmaLinux + KDE Plasma, searchable utilities, live command output, and a cohesive dark interface.</p>
       <p><code>AlmaLinux</code> <code>KDE Plasma</code> <code>Python</code> <code>RPM</code></p>
-      <p><sub><b>DEVELOPMENT CANDIDATE</b> · Installer, desktop, and system testing in progress.</sub></p>
+      <sub>Development candidate · Installer and desktop testing in progress.</sub>
     </td>
     <td width="50%" valign="top">
-      <img src="./profile-assets/envy-reclaim.svg" width="100%" alt="RECLAIM — recovery, one block at a time" />
-      <p>A recovery tool inside BLACK VEIL, with a <b>1,024-block recovery map</b> driven by real GNU ddrescue progress for disk-image recovery.</p>
+      <a href="https://github.com/xzchick/envy-black-veil"><img src="./profile-assets/envy-reclaim.svg" width="100%" alt="RECLAIM — recovery, one block at a time" /></a>
+      <p><b>Make recovery visible.</b> A 1,024-block recovery map driven by GNU ddrescue progress for disk-image recovery.</p>
       <p><code>Python</code> <code>Qt</code> <code>GNU ddrescue</code></p>
-      <p><sub><code>envy gui reclaim</code> · Bring the recovery map into view.</sub></p>
-      <p><sub><b>IN DEVELOPMENT</b> · Part of the BLACK VEIL toolset.</sub></p>
+      <sub>In development · Part of the BLACK VEIL toolset.</sub>
     </td>
   </tr>
 </table>
 
-## ✧ Inside the builds
+<p align="center"><a href="https://github.com/xzchick/envy-black-veil"><b>Explore BLACK VEIL →</b></a></p>
 
-Actual development screenshots from BLACK VEIL. Click an image for a closer look.
+<details>
+<summary><b>Inside the workshop — development screenshots</b></summary>
+<br />
 
-### RECLAIM · Recovery, one block at a time
+[![RECLAIM recovery-map development preview](./reclaim-development.png)](./reclaim-development.png)
 
-[![Reclaim development interface with a pink recovery map](./reclaim-development.png)](./reclaim-development.png)
+<sub>Synthetic recovery-map test data; not a real disk recovery result.</sub>
 
-<sub>Development preview · Synthetic test data demonstrates read-complete, error, and untried ranges. This is a display test, not a real disk recovery result.</sub>
+<table><tr>
+<td width="50%" valign="top"><b>COMMAND CENTER</b><br /><br /><img src="./command-center-development.png" width="100%" alt="Command Center development interface" /><p>Searchable launchers, system actions, and an output panel.</p><sub>Idle development interface; no action running.</sub></td>
+<td width="50%" valign="top"><b>OPS DESK</b><br /><br /><img src="./ops-desk-development.png" width="100%" alt="Ops Desk development interface using a sample task" /><p>Encrypted local planning, role aliases, progress, and check-ins.</p><sub>Development preview using test data.</sub></td>
+</tr></table>
+</details>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>⌘ COMMAND CENTER</b><br /><br />
-      <a href="./command-center-development.png"><img src="./command-center-development.png" width="100%" alt="BLACK VEIL Command Center development interface" /></a>
-      <p>A searchable home for the suite, with application launchers, system actions, and an output panel.</p>
-      <sub>Development preview · Idle interface; no action running.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <b>▦ OPS DESK</b><br /><br />
-      <a href="./ops-desk-development.png"><img src="./ops-desk-development.png" width="100%" alt="Ops Desk development interface with a sample planning task" /></a>
-      <p>Encrypted local planning with assignments, role aliases, progress, and check-ins.</p>
-      <sub>Development preview · Sample task and test data.</sub>
-    </td>
-  </tr>
-</table>
+<details>
+<summary><b>Explore the BLACK VEIL toolset</b></summary>
 
 ## ⌘ Inside BLACK VEIL
 
@@ -83,7 +109,7 @@ Actual development screenshots from BLACK VEIL. Click an image for a closer look
   </tr>
 </table>
 
-<details open>
+<details>
 <summary><b>✦ Open the command deck · <code>envy gui command-center</code></b></summary>
 
 ### Systems, signals & experiments
@@ -110,6 +136,9 @@ Actual development screenshots from BLACK VEIL. Click an image for a closer look
   <sub><b>CURRENT FOCUS</b> &nbsp; Installation · recovery · desktop integration · testing</sub>
 </p>
 
+
+</details>
+
 ## ↗ Find me elsewhere
 
 <p align="center">
@@ -126,6 +155,7 @@ Actual development screenshots from BLACK VEIL. Click an image for a closer look
 <p align="center">
   <img src="./profile-assets/envy-signoff.svg" width="100%" alt="Stay a little cosmic" />
 </p>
+
 
 
 
