@@ -15,7 +15,7 @@
     <ellipse cx="90" cy="310" rx="320" ry="210" fill="url(#pink)"/>
     <g fill="#a8c7ed" opacity=".3"><circle cx="445" cy="26" r="1"/><circle cx="562" cy="296" r="1"/><circle cx="690" cy="43" r="1.2"/><circle cx="398" cy="302" r=".8"/></g>
     <g font-family="Arial, Helvetica, sans-serif">
-      <text x="34" y="43" font-size="14" letter-spacing="2.6" font-weight="600" fill="#6ceaff">05 / ON THE WORKBENCH</text>
+      <text x="34" y="43" font-size="14" letter-spacing="2.6" font-weight="600" fill="#6ceaff">ON THE WORKBENCH</text>
       <text x="32" y="80" font-size="28" letter-spacing="1" font-weight="700" fill="#f2f4ff">Currently Building</text>
     </g>
     <path d="M34 96h55" stroke="#ff3db4" stroke-width="2"/>

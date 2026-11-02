@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="200" viewBox="0 0 720 200" role="img" aria-labelledby="title description">
+  <title id="title">Hash Audit</title>
+  <desc id="description">Local. Terminal. Authorized. An ENVY hash auditing tool card in luminous cyan and lavender over a dark galaxy.</desc>
+  <defs>
+    <linearGradient id="edge"><stop stop-color="#35e8ff" stop-opacity=".6"/><stop offset=".5" stop-color="#ac8cff" stop-opacity=".2"/><stop offset="1" stop-color="#ff3db4" stop-opacity=".55"/></linearGradient>
+    <radialGradient id="cloud"><stop stop-color="#4b2a9e" stop-opacity=".45"/><stop offset="1" stop-color="#050713" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cyan"><stop stop-color="#0d5666" stop-opacity=".3"/><stop offset="1" stop-color="#050713" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="718" height="198" rx="20"/></clipPath>
+  </defs>
+  <style>.signal{animation:pulse 7.5s ease-in-out -1.5s infinite}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:.95}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}</style>
+  <g clip-path="url(#clip)">
+    <rect width="720" height="200" fill="#050713"/>
+    <ellipse cx="640" cy="100" rx="240" ry="170" fill="url(#cloud)"/>
+    <ellipse cx="100" cy="190" rx="320" ry="200" fill="url(#cyan)"/>
+    <g fill="#c9d9ff" opacity=".3"><circle cx="445" cy="26" r="1"/><circle cx="562" cy="171" r="1"/><circle cx="680" cy="43" r="1.2"/><circle cx="398" cy="176" r=".8"/><circle cx="672" cy="161" r=".7"/></g>
+    <g stroke="#ac8cff" fill="none"><rect x="580" y="55" width="92" height="92" rx="18" transform="rotate(45 626 101)" stroke-opacity=".22"/><rect x="566" y="41" width="120" height="120" rx="24" transform="rotate(45 626 101)" stroke-opacity=".1"/><circle cx="626" cy="101" r="34" stroke="#35e8ff" stroke-opacity=".3"/></g>
+    <g class="signal" fill="#9bf7ff"><circle cx="560" cy="60" r="2.5"/><circle cx="694" cy="146" r="2.5"/></g>
+    <path d="M616 84 610 118M638 84 632 118M604 94h40M601 108h40" fill="none" stroke="#b9f8ff" stroke-width="3" stroke-linecap="round"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="34" y="43" font-size="16" letter-spacing="2.6" font-weight="600" fill="#6ceaff">AUDIT TOOL</text>
+      <text x="32" y="99" font-size="39" letter-spacing="1.2" font-weight="700" fill="#f2f4ff">HASH AUDIT</text>
+      <text x="34" y="142" font-size="24" fill="#b9c3df">Local. Terminal. Authorized.</text>
+    </g>
+    <path d="M34 173h55" stroke="#ac8cff" stroke-width="2"/>
+    <path d="M95 173h24" stroke="#35e8ff" stroke-opacity=".4" stroke-width="2"/>
+  </g>
+  <rect x=".75" y=".75" width="718.5" height="198.5" rx="20" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>

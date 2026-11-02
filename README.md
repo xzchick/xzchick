@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="#-featured-envy-terminal">Terminal AI</a> &nbsp; · &nbsp;
+  <a href="#-hash-audit">Hash Audit</a> &nbsp; · &nbsp;
   <a href="#-the-black-veil-workshop">BLACK VEIL</a> &nbsp; · &nbsp;
   <a href="#-find-me-elsewhere">Find me</a>
 </p>
@@ -19,6 +20,25 @@
 </p>
 
 ---
+
+## ◈ Signal check
+
+<table>
+  <tr>
+    <td width="50%"><img src="./profile-assets/envy-score.svg" width="100%" alt="ENVY GitHub score, from my commits, pull requests, issues, reviews, stars and followers" /></td>
+    <td width="50%"><img src="./profile-assets/envy-stack.svg" width="100%" alt="Tech stack: languages across my repositories and the tools I build with" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./profile-assets/envy-activity.svg" width="100%" alt="Contribution activity over the last 30 days" /></td>
+    <td width="50%"><img src="./profile-assets/envy-building.svg" width="100%" alt="Currently building: ENVY Terminal, BLACK VEIL and hash-audit" /></td>
+  </tr>
+</table>
+
+<details>
+<summary><b>✶ View my contribution skyline</b></summary>
+<br />
+<img src="./profile-3d-contrib/profile-envy-3d.svg" width="100%" alt="ENVY contribution skyline — a 3D city of my GitHub activity in neon pink, lavender, violet and cyan on a midnight background" />
+</details>
 
 ## ✦ Featured: ENVY Terminal
 
@@ -45,10 +65,23 @@
 <br />
 <img src="https://raw.githubusercontent.com/xzchick/envy-terminal/main/docs/assets/terminal-demo.png" width="100%" alt="ENVY Terminal indexing and searching a fictional local document" />
 
-<sub>Illustrative terminal render using a fictional fixture and real indexing output. No personal documents or account information are shown.</sub>
+<sub>Fictional sample document; no personal data shown.</sub>
 </details>
 
-<sub>macOS-first · Python · Ollama · SQLite · Vision OCR · Local inference has no provider token bill. Online research still contacts external sources; model answers require verification.</sub>
+## ✦ Hash Audit
+
+<table>
+  <tr>
+    <td width="50%" valign="middle">
+      <a href="https://github.com/xzchick/hash-audit"><img src="./profile-assets/envy-hash-audit.svg" width="100%" alt="HASH AUDIT — local, terminal, authorized" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <p><b>Recover what's yours, offline.</b> Validates hash files, identifies plausible formats across 23 types, and runs your installed Hashcat or John Jumbo with explicit settings and a separate results folder for every run.</p>
+      <p><code>Python</code> <code>Hashcat</code> <code>John Jumbo</code> <code>MIT</code></p>
+      <p><a href="https://github.com/xzchick/hash-audit"><b>Explore Hash Audit →</b></a></p>
+    </td>
+  </tr>
+</table>
 
 ## ✧ The BLACK VEIL workshop
 
@@ -60,13 +93,11 @@ A Linux environment and a growing set of tools for system visibility, recovery, 
       <a href="https://github.com/xzchick/envy-black-veil"><img src="./profile-assets/envy-black-veil.svg" width="100%" alt="ENVY BLACK VEIL — Linux desktop and system tools" /></a>
       <p><b>A desktop with its own identity.</b> AlmaLinux + KDE Plasma, searchable utilities, live command output, and a cohesive dark interface.</p>
       <p><code>AlmaLinux</code> <code>KDE Plasma</code> <code>Python</code> <code>RPM</code></p>
-      <sub>Development candidate · Installer and desktop testing in progress.</sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/xzchick/envy-black-veil"><img src="./profile-assets/envy-reclaim.svg" width="100%" alt="RECLAIM — recovery, one block at a time" /></a>
       <p><b>Make recovery visible.</b> A 1,024-block recovery map driven by GNU ddrescue progress for disk-image recovery.</p>
       <p><code>Python</code> <code>Qt</code> <code>GNU ddrescue</code></p>
-      <sub>In development · Part of the BLACK VEIL toolset.</sub>
     </td>
   </tr>
 </table>
@@ -82,8 +113,8 @@ A Linux environment and a growing set of tools for system visibility, recovery, 
 <sub>Synthetic recovery-map test data; not a real disk recovery result.</sub>
 
 <table><tr>
-<td width="50%" valign="top"><b>COMMAND CENTER</b><br /><br /><img src="./command-center-development.png" width="100%" alt="Command Center development interface" /><p>Searchable launchers, system actions, and an output panel.</p><sub>Idle development interface; no action running.</sub></td>
-<td width="50%" valign="top"><b>OPS DESK</b><br /><br /><img src="./ops-desk-development.png" width="100%" alt="Ops Desk development interface using a sample task" /><p>Encrypted local planning, role aliases, progress, and check-ins.</p><sub>Development preview using test data.</sub></td>
+<td width="50%" valign="top"><b>COMMAND CENTER</b><br /><br /><img src="./command-center-development.png" width="100%" alt="Command Center development interface" /><p>Searchable launchers, system actions, and an output panel.</p></td>
+<td width="50%" valign="top"><b>OPS DESK</b><br /><br /><img src="./ops-desk-development.png" width="100%" alt="Ops Desk development interface using a sample task" /><p>Encrypted local planning, role aliases, progress, and check-ins.</p></td>
 </tr></table>
 </details>
 
@@ -139,29 +170,6 @@ A Linux environment and a growing set of tools for system visibility, recovery, 
 
 </details>
 
-## ◈ Signal check
-
-<table>
-  <tr>
-    <td width="50%"><img src="./profile-assets/envy-score.svg" width="100%" alt="ENVY GitHub score, from my commits, pull requests, issues, reviews, stars and followers" /></td>
-    <td width="50%"><img src="./profile-assets/envy-stack.svg" width="100%" alt="Tech stack: languages across my repositories and the tools I build with" /></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./profile-assets/envy-activity.svg" width="100%" alt="Contribution activity over the last 30 days" /></td>
-    <td width="50%"><img src="./profile-assets/envy-building.svg" width="100%" alt="Currently building: ENVY Terminal, BLACK VEIL and hash-audit" /></td>
-  </tr>
-</table>
-
-<p align="center"><sub>Panels refresh daily from my GitHub activity.</sub></p>
-
-## ✶ Contribution skyline
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-envy-3d.svg" width="100%" alt="ENVY contribution skyline — a 3D city of my GitHub activity in neon pink, lavender, violet and cyan on a midnight background" />
-</p>
-
-<p align="center"><sub>Rebuilt daily from my real GitHub activity · ENVY neon palette.</sub></p>
-
 ---
 
 ## ↗ Find me elsewhere
@@ -180,7 +188,3 @@ A Linux environment and a growing set of tools for system visibility, recovery, 
 <p align="center">
   <img src="./profile-assets/envy-signoff.svg" width="100%" alt="Stay a little cosmic" />
 </p>
-
-
-
-

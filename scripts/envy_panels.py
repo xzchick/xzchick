@@ -143,7 +143,7 @@ def score_panel(user):
     </g>
     <text x="34" y="{H - 14}" font-size="11" fill="{MUTED}" opacity=".6" {FONT}>Past 12 months · ENVY formula, not an official GitHub rank</text>"""
     desc = f"ENVY GitHub score {grade}, {score} out of 100, from commits, pull requests, issues, reviews, stars and followers."
-    return card("GitHub Score", "02 / SIGNAL STRENGTH", desc, body)
+    return card("GitHub Score", "SIGNAL STRENGTH", desc, body)
 
 
 def stack_panel(user, tools):
@@ -187,7 +187,7 @@ def stack_panel(user, tools):
     <g {FONT}>{''.join(legend)}{''.join(chips)}</g>"""
     names = ", ".join(n for n, _ in top)
     desc = f"Languages across my repositories ({names}) and the tools I build with: {', '.join(tools)}."
-    return card("Tech Stack", "03 / TOOLS OF THE TRADE", desc, body)
+    return card("Tech Stack", "TOOLS OF THE TRADE", desc, body)
 
 
 def activity_panel(user, days=30):
@@ -243,7 +243,7 @@ def activity_panel(user, days=30):
       {stat_svg}
     </g>"""
     desc = f"{sum(counts)} contributions in the last {days} days, {cal['totalContributions']} this year, {streak} day streak."
-    return card("Contribution Activity", "04 / FREQUENCY", desc, body)
+    return card("Contribution Activity", "FREQUENCY", desc, body)
 
 
 def building_panel(user, projects):
@@ -265,7 +265,7 @@ def building_panel(user, projects):
       <text x="{W - 34}" y="{y + 38}" font-size="12" fill="{MUTED}" opacity=".7" text-anchor="end">{'last push ' + when if when else ''}</text>
     </g>""")
     desc = "Currently building: " + "; ".join(f"{p['name']} ({p['status']})" for p in projects[:3]) + "."
-    return card("Currently Building", "05 / ON THE WORKBENCH", desc, "\n".join(rows))
+    return card("Currently Building", "ON THE WORKBENCH", desc, "\n".join(rows))
 
 
 def main():
