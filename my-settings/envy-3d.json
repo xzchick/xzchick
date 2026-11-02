@@ -1,0 +1,17 @@
+{
+  "type": "normal",
+  "fileName": "profile-envy-3d.svg",
+  "backgroundColor": "#050713",
+  "foregroundColor": "#c9d9ff",
+  "strongColor": "#ff3db4",
+  "weakColor": "#8547e8",
+  "radarColor": "#35e8ff",
+  "growingAnimation": true,
+  "contribColors": [
+    "#080b1c",
+    "#8547e8",
+    "#ac8cff",
+    "#ff3db4",
+    "#35e8ff"
+  ]
+}
