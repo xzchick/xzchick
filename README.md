@@ -139,6 +139,16 @@ A Linux environment and a growing set of tools for system visibility, recovery, 
 
 </details>
 
+## ✶ Contribution skyline
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-envy-3d.svg" width="100%" alt="ENVY contribution skyline — a 3D city of my GitHub activity in neon pink, lavender, violet and cyan on a midnight background" />
+</p>
+
+<p align="center"><sub>Rebuilt daily from my real GitHub activity · ENVY neon palette.</sub></p>
+
+---
+
 ## ↗ Find me elsewhere
 
 <p align="center">
