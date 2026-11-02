@@ -3,14 +3,7 @@
 </p>
 
 <p align="center">
-  <b>LOCAL AI &nbsp; / &nbsp; LINUX &nbsp; / &nbsp; RECOVERY &nbsp; / &nbsp; PRIVACY</b>
-</p>
-
-<p align="center">
-  <a href="#-featured-envy-terminal">Terminal AI</a> &nbsp; · &nbsp;
-  <a href="#-hash-audit">Hash Audit</a> &nbsp; · &nbsp;
-  <a href="#-the-black-veil-workshop">BLACK VEIL</a> &nbsp; · &nbsp;
-  <a href="#-find-me-elsewhere">Find me</a>
+  <img src="./profile-assets/envy-topics.svg" width="100%" alt="Local AI · Linux · Recovery · Privacy · Cybersecurity · Digital Forensics · Content Creation" />
 </p>
 
 <p align="center">
@@ -19,28 +12,56 @@
   <i>A little shell magic. I still eat glitter. ✨</i>
 </p>
 
----
+<p align="center"><img src="./profile-assets/envy-typing.svg" width="100%" alt="envy@veil:~$ building local AI that stays on your machine" /></p>
 
-## ◈ Signal check
+<p align="center"><img src="./profile-assets/envy-divider.svg" width="100%" alt="" /></p>
 
-<table>
-  <tr>
-    <td width="50%"><img src="./profile-assets/envy-score.svg" width="100%" alt="ENVY GitHub score, from my commits, pull requests, issues, reviews, stars and followers" /></td>
-    <td width="50%"><img src="./profile-assets/envy-stack.svg" width="100%" alt="Tech stack: languages across my repositories and the tools I build with" /></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./profile-assets/envy-activity.svg" width="100%" alt="Contribution activity over the last 30 days" /></td>
-    <td width="50%"><img src="./profile-assets/envy-building.svg" width="100%" alt="Currently building: ENVY Terminal, BLACK VEIL and hash-audit" /></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="#projects"><b>Projects</b></a> &nbsp; · &nbsp;
+  <a href="#signal"><b>Stats</b></a> &nbsp; · &nbsp;
+  <a href="#terminal"><b>Terminal AI</b></a> &nbsp; · &nbsp;
+  <a href="#veil"><b>BLACK VEIL</b></a> &nbsp; · &nbsp;
+  <a href="#find"><b>Find me</b></a>
+</p>
+
+<p align="center"><img src="./profile-assets/envy-stats.svg" width="100%" alt="GitHub at a glance: public repos, stars, followers and following" /></p>
+
+<a name="projects"></a>
+<p align="center"><img src="./profile-assets/envy-section-projects.svg" width="100%" alt="Featured Projects" /></p>
+
+<p align="center">
+  <a href="https://github.com/xzchick/envy-terminal"><img src="./profile-assets/envy-project-envy-terminal.svg" width="32.5%" alt="ENVY Terminal — local AI in your Terminal" /></a>
+  <a href="https://github.com/xzchick/envy-black-veil"><img src="./profile-assets/envy-project-envy-black-veil.svg" width="32.5%" alt="BLACK VEIL — a Linux world of my own" /></a>
+  <a href="https://github.com/xzchick/hash-audit"><img src="./profile-assets/envy-project-hash-audit.svg" width="32.5%" alt="Hash Audit — terminal-only hash auditing and authorized recovery" /></a>
+</p>
+
+<a name="signal"></a>
+<p align="center"><img src="./profile-assets/envy-section-signal.svg" width="100%" alt="Signal Check" /></p>
+
+<p align="center">
+  <img src="./profile-assets/envy-score.svg" width="49.5%" alt="ENVY GitHub score, from my commits, pull requests, issues, reviews, stars and followers" />
+  <img src="./profile-assets/envy-stack.svg" width="49.5%" alt="Tech stack: languages across my repositories and the tools I build with" />
+</p>
+
+<p align="center"><img src="./profile-assets/envy-heatmap.svg" width="100%" alt="Contribution activity over the past year in ENVY neon colors" /></p>
+
+<p align="center">
+  <img src="./profile-assets/envy-building.svg" width="49.5%" alt="Currently building: ENVY Terminal, BLACK VEIL and hash-audit" />
+  <img src="./profile-assets/envy-recent.svg" width="49.5%" alt="My most recent public GitHub activity" />
+</p>
+
+<p align="center"><img src="./profile-assets/envy-skyline.svg" width="100%" alt="Contribution City — the newest corner of my 3D contribution skyline in ENVY neon" /></p>
 
 <details>
-<summary><b>✶ View my contribution skyline</b></summary>
+<summary><b>✶ View the whole skyline</b></summary>
 <br />
 <img src="./profile-3d-contrib/profile-envy-3d.svg" width="100%" alt="ENVY contribution skyline — a 3D city of my GitHub activity in neon pink, lavender, violet and cyan on a midnight background" />
 </details>
 
-## ✦ Featured: ENVY Terminal
+<p align="center"><img src="./profile-assets/envy-divider.svg" width="100%" alt="" /></p>
+
+<a name="terminal"></a>
+<p align="center"><img src="./profile-assets/envy-section-terminal.svg" width="100%" alt="ENVY Terminal" /></p>
 
 <a href="https://github.com/xzchick/envy-terminal"><img src="https://raw.githubusercontent.com/xzchick/envy-terminal/main/docs/assets/hero.svg" width="100%" alt="ENVY Terminal — local AI, your documents, and evidence you can inspect" /></a>
 
@@ -68,22 +89,8 @@
 <sub>Fictional sample document; no personal data shown.</sub>
 </details>
 
-## ✦ Hash Audit
-
-<table>
-  <tr>
-    <td width="50%" valign="middle">
-      <a href="https://github.com/xzchick/hash-audit"><img src="./profile-assets/envy-hash-audit.svg" width="100%" alt="HASH AUDIT — local, terminal, authorized" /></a>
-    </td>
-    <td width="50%" valign="top">
-      <p><b>Recover what's yours, offline.</b> Validates hash files, identifies plausible formats across 23 types, and runs your installed Hashcat or John Jumbo with explicit settings and a separate results folder for every run.</p>
-      <p><code>Python</code> <code>Hashcat</code> <code>John Jumbo</code> <code>MIT</code></p>
-      <p><a href="https://github.com/xzchick/hash-audit"><b>Explore Hash Audit →</b></a></p>
-    </td>
-  </tr>
-</table>
-
-## ✧ The BLACK VEIL workshop
+<a name="veil"></a>
+<p align="center"><img src="./profile-assets/envy-section-veil.svg" width="100%" alt="The BLACK VEIL Workshop" /></p>
 
 A Linux environment and a growing set of tools for system visibility, recovery, and deliberate control.
 
@@ -172,17 +179,15 @@ A Linux environment and a growing set of tools for system visibility, recovery, 
 
 ---
 
-## ↗ Find me elsewhere
+<a name="find"></a>
+<p align="center"><img src="./profile-assets/envy-section-find.svg" width="100%" alt="Find Me Elsewhere" /></p>
 
 <p align="center">
-  <a href="https://linktr.ee/xzchick"><img src="./profile-assets/envy-link-hub.svg" width="430" alt="The Link Hub — find me across the internet" /></a>
-</p>
-
-<p align="center">
-  <a href="https://www.instagram.com/xzchick"><b>Instagram</b></a> &nbsp; · &nbsp;
-  <a href="https://www.tiktok.com/@xzchik"><b>TikTok</b></a> &nbsp; · &nbsp;
-  <a href="https://x.com/xzchick"><b>X</b></a> &nbsp; · &nbsp;
-  <a href="https://www.twitch.tv/xzchick"><b>Twitch</b></a>
+  <a href="https://www.instagram.com/xzchick"><img src="./profile-assets/envy-social-instagram.svg" width="150" alt="Instagram" /></a>
+  <a href="https://www.tiktok.com/@xzchik"><img src="./profile-assets/envy-social-tiktok.svg" width="150" alt="TikTok" /></a>
+  <a href="https://x.com/xzchick"><img src="./profile-assets/envy-social-x.svg" width="150" alt="X" /></a>
+  <a href="https://www.twitch.tv/xzchick"><img src="./profile-assets/envy-social-twitch.svg" width="150" alt="Twitch" /></a>
+  <a href="https://linktr.ee/xzchick"><img src="./profile-assets/envy-social-linktree.svg" width="150" alt="Linktree" /></a>
 </p>
 
 <p align="center">

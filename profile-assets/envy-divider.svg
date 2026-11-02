@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="44" viewBox="0 0 1000 44" role="img" aria-label="Moon phase divider">
+  <defs>
+    <linearGradient id="fadeL"><stop stop-color="#ff3db4" stop-opacity="0"/><stop offset="1" stop-color="#ff3db4"/></linearGradient>
+    <linearGradient id="fadeR"><stop stop-color="#35e8ff"/><stop offset="1" stop-color="#35e8ff" stop-opacity="0"/></linearGradient>
+    <radialGradient id="moon" cx=".4" cy=".35"><stop stop-color="#f2e9ff"/><stop offset="1" stop-color="#ac8cff"/></radialGradient>
+  </defs>
+  <style>.signal{animation:pulse 7s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+.cl{animation:cl 6s ease-in infinite}.cr{animation:cr 6s ease-out 3s infinite}
+@keyframes cl{0%{transform:translateX(0);opacity:0}10%{opacity:1}55%,100%{transform:translateX(290px);opacity:0}}
+@keyframes cr{0%{transform:translateX(0);opacity:0}10%{opacity:1}55%,100%{transform:translateX(290px);opacity:0}}
+.tw{animation:pulse 4s ease-in-out infinite}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <path d="M70 22H360" stroke="url(#fadeL)" stroke-width="2"/>
+  <path d="M640 22H930" stroke="url(#fadeR)" stroke-width="2"/>
+  <g class="cl"><circle cx="70" cy="22" r="6" fill="#ff3db4" opacity=".25"/><circle cx="70" cy="22" r="2.5" fill="#ffd1ee"/></g>
+  <g class="cr"><circle cx="640" cy="22" r="6" fill="#35e8ff" opacity=".25"/><circle cx="640" cy="22" r="2.5" fill="#d4fbff"/></g>
+  <g fill="#c9d9ff"><circle class="tw" style="animation-delay:0s" cx="180" cy="9" r="1"/><circle class="tw" style="animation-delay:1.3s" cx="285" cy="35" r="0.8"/><circle class="tw" style="animation-delay:2.4s" cx="330" cy="8" r="1.1"/><circle class="tw" style="animation-delay:0.7s" cx="690" cy="34" r="1"/><circle class="tw" style="animation-delay:1.9s" cx="770" cy="10" r="0.8"/><circle class="tw" style="animation-delay:3s" cx="860" cy="31" r="1.1"/></g>
+  <mask id="m0"><circle cx="386" cy="22" r="8" fill="#fff"/><circle cx="391" cy="21" r="7.5" fill="#000"/></mask><circle cx="386" cy="22" r="8" fill="#ff3db4" mask="url(#m0)"/><mask id="m1"><circle cx="424" cy="22" r="8" fill="#fff"/><circle cx="427.5" cy="21" r="7.5" fill="#000"/></mask><circle cx="424" cy="22" r="8" fill="#ff3db4" mask="url(#m1)"/><mask id="m2"><circle cx="462" cy="22" r="8" fill="#fff"/><circle cx="464" cy="21" r="7.5" fill="#000"/></mask><circle cx="462" cy="22" r="8" fill="#ac8cff" mask="url(#m2)"/><circle class="signal" cx="500" cy="22" r="17" fill="#ac8cff" fill-opacity=".18"/><circle cx="500" cy="22" r="11" fill="url(#moon)" stroke="#ff3db4" stroke-width="1.5"/><circle cx="497" cy="20" r="2.2" fill="#8a6ad6" opacity=".6"/><circle cx="503.5" cy="25" r="1.5" fill="#8a6ad6" opacity=".5"/><mask id="m4"><circle cx="538" cy="22" r="8" fill="#fff"/><circle cx="536" cy="21" r="7.5" fill="#000"/></mask><circle cx="538" cy="22" r="8" fill="#ac8cff" mask="url(#m4)"/><mask id="m5"><circle cx="576" cy="22" r="8" fill="#fff"/><circle cx="572.5" cy="21" r="7.5" fill="#000"/></mask><circle cx="576" cy="22" r="8" fill="#35e8ff" mask="url(#m5)"/><mask id="m6"><circle cx="614" cy="22" r="8" fill="#fff"/><circle cx="609" cy="21" r="7.5" fill="#000"/></mask><circle cx="614" cy="22" r="8" fill="#35e8ff" mask="url(#m6)"/>
+</svg>

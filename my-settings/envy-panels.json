@@ -2,8 +2,16 @@
   "username": "xzchick",
   "outputDir": "profile-assets",
   "stack": [
-    "Python", "Bash", "Qt", "SQLite", "Ollama",
-    "AlmaLinux", "KDE Plasma", "Podman", "RPM", "macOS"
+    "Python",
+    "Bash",
+    "Qt",
+    "SQLite",
+    "Ollama",
+    "AlmaLinux",
+    "KDE Plasma",
+    "Podman",
+    "RPM",
+    "macOS"
   ],
   "building": [
     {
@@ -23,6 +31,152 @@
       "name": "hash-audit",
       "status": "ACTIVE",
       "note": "Local hash auditing and authorized recovery"
+    }
+  ],
+  "topics": [
+    {
+      "label": "Local AI",
+      "icon": "chip"
+    },
+    {
+      "label": "Linux",
+      "icon": "terminal"
+    },
+    {
+      "label": "Recovery",
+      "icon": "recovery"
+    },
+    {
+      "label": "Privacy",
+      "icon": "lock"
+    },
+    {
+      "label": "Cybersecurity",
+      "icon": "shield"
+    },
+    {
+      "label": "Digital Forensics",
+      "icon": "search"
+    },
+    {
+      "label": "Content Creation",
+      "icon": "video"
+    }
+  ],
+  "featured": [
+    {
+      "repo": "envy-terminal",
+      "name": "ENVY Terminal",
+      "icon": "terminal",
+      "accent": "pink",
+      "blurb": "Local AI in your Terminal: fast and deep models, PDF search and cited research.",
+      "tags": [
+        "python",
+        "ai",
+        "terminal",
+        "ollama"
+      ]
+    },
+    {
+      "repo": "envy-black-veil",
+      "name": "BLACK VEIL",
+      "icon": "layers",
+      "accent": "cyan",
+      "blurb": "A Linux world of my own: desktop tools, privacy workflows and recovery maps.",
+      "tags": [
+        "linux",
+        "privacy",
+        "tools",
+        "kde"
+      ]
+    },
+    {
+      "repo": "hash-audit",
+      "name": "Hash Audit",
+      "icon": "hash",
+      "accent": "lavender",
+      "blurb": "Terminal-only hash auditing and authorized password recovery. 23 formats.",
+      "tags": [
+        "security",
+        "hashcat",
+        "john",
+        "cli"
+      ]
+    }
+  ],
+  "social": [
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "accent": "pink",
+      "url": "https://www.instagram.com/xzchick"
+    },
+    {
+      "name": "TikTok",
+      "icon": "tiktok",
+      "accent": "cyan",
+      "url": "https://www.tiktok.com/@xzchik"
+    },
+    {
+      "name": "X",
+      "icon": "x",
+      "accent": "lavender",
+      "url": "https://x.com/xzchick"
+    },
+    {
+      "name": "Twitch",
+      "icon": "twitch",
+      "accent": "pink",
+      "url": "https://www.twitch.tv/xzchick"
+    },
+    {
+      "name": "Linktree",
+      "icon": "link",
+      "accent": "cyan",
+      "url": "https://linktr.ee/xzchick"
+    }
+  ],
+  "typing": [
+    "building local AI that stays on your machine",
+    "mapping recovery, one block at a time",
+    "auditing hashes you're authorized to test",
+    "a little shell magic, a lot of intention"
+  ],
+  "sections": [
+    {
+      "id": "projects",
+      "title": "Featured Projects",
+      "kicker": "WHAT I'M MAKING",
+      "icon": "star",
+      "accent": "pink"
+    },
+    {
+      "id": "signal",
+      "title": "Signal Check",
+      "kicker": "LIVE FROM GITHUB",
+      "icon": "pulse",
+      "accent": "cyan"
+    },
+    {
+      "id": "terminal",
+      "title": "ENVY Terminal",
+      "kicker": "LOCAL AI",
+      "icon": "terminal",
+      "accent": "pink"
+    },
+    {
+      "id": "veil",
+      "title": "The BLACK VEIL Workshop",
+      "kicker": "LINUX · RECOVERY",
+      "icon": "layers",
+      "accent": "lavender"
+    },
+    {
+      "id": "find",
+      "title": "Find Me Elsewhere",
+      "kicker": "SAY HELLO",
+      "icon": "link",
+      "accent": "cyan"
     }
   ]
 }

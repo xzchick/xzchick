@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="250" viewBox="0 0 340 250" role="img" aria-labelledby="title description">
+  <title id="title">ENVY Terminal</title>
+  <desc id="description">Local AI in your Terminal: fast and deep models, PDF search and cited research.</desc>
+  <defs>
+    <linearGradient id="edge"><stop stop-color="#ff3db4" stop-opacity=".55"/><stop offset=".5" stop-color="#ac8cff" stop-opacity=".2"/><stop offset="1" stop-color="#35e8ff" stop-opacity=".65"/></linearGradient>
+    <linearGradient id="neon"><stop stop-color="#ff3db4"/><stop offset="1" stop-color="#35e8ff"/></linearGradient>
+    <radialGradient id="cloud"><stop stop-color="#0d5666" stop-opacity=".45"/><stop offset="1" stop-color="#050713" stop-opacity="0"/></radialGradient>
+    <radialGradient id="pink"><stop stop-color="#a71c7d" stop-opacity=".2"/><stop offset="1" stop-color="#050713" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="338" height="248" rx="18"/></clipPath>
+  </defs>
+  <style>.signal{animation:pulse 7s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:.95}}.sheen{animation:sheen 9s ease-in-out 22.4s infinite}@keyframes sheen{0%{transform:translateX(0)}22%,100%{transform:translateX(600px)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <g clip-path="url(#clip)">
+    <rect width="340" height="250" fill="#050713"/>
+    <ellipse cx="260" cy="125" rx="204" ry="200" fill="url(#cloud)"/>
+    <ellipse cx="90" cy="240" rx="238" ry="210" fill="url(#pink)"/>
+    <g fill="#a8c7ed" opacity=".3"><circle cx="211" cy="26" r="1"/><circle cx="265" cy="226" r="1"/><circle cx="310" cy="43" r="1.2"/><circle cx="187" cy="232" r=".8"/></g>
+    <g transform="translate(24 26) scale(1.250)" fill="none" stroke="#ff3db4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="16" rx="3"/><path d="M7 9l3 3-3 3M12.5 15H17"/></g>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="66" y="50" font-size="21" font-weight="700" fill="#f2f4ff">ENVY Terminal</text>
+      <circle cx="266" cy="42" r="4.5" fill="#ff3db4"/><text x="316" y="47" font-size="13" fill="#b9c3df" text-anchor="end">Python</text><text x="26" y="98" font-size="15" fill="#b9c3df">Local AI in your Terminal: fast and</text><text x="26" y="121" font-size="15" fill="#b9c3df">deep models, PDF search and cited</text><text x="26" y="144" font-size="15" fill="#b9c3df">research.</text><rect x="26" y="196" width="68" height="28" rx="14" fill="#0b1030" stroke="#ff3db4" stroke-opacity=".6"/><text x="60" y="215" font-size="13" fill="#f2f4ff" text-anchor="middle">python</text><rect x="102" y="196" width="39" height="28" rx="14" fill="#0b1030" stroke="#ff3db4" stroke-opacity=".6"/><text x="122" y="215" font-size="13" fill="#f2f4ff" text-anchor="middle">ai</text><rect x="149" y="196" width="83" height="28" rx="14" fill="#0b1030" stroke="#ff3db4" stroke-opacity=".6"/><text x="191" y="215" font-size="13" fill="#f2f4ff" text-anchor="middle">terminal</text><rect x="240" y="196" width="68" height="28" rx="14" fill="#0b1030" stroke="#ff3db4" stroke-opacity=".6"/><text x="275" y="215" font-size="13" fill="#f2f4ff" text-anchor="middle">ollama</text>
+    </g>
+    <path d="M26 72h44" stroke="#ff3db4" stroke-width="2"/>
+    <defs><linearGradient id="sheen"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+    <g class="sheen"><rect x="-140" y="-40" width="110" height="330" fill="url(#sheen)" transform="skewX(-18)"/></g>
+  </g>
+  <rect x=".75" y=".75" width="338.5" height="248.5" rx="18" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>
