@@ -5,6 +5,11 @@ on:
     # 03:00 JST == 18:00 UTC, daily
     - cron: "0 18 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - my-settings/**
+      - scripts/**
 
 permissions:
   contents: write
@@ -21,6 +26,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: my-settings/envy-3d.json
+
+      - name: Generate ENVY profile panels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/envy_panels.py
 
       - name: Commit & Push
         run: |

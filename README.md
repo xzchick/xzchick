@@ -139,6 +139,21 @@ A Linux environment and a growing set of tools for system visibility, recovery, 
 
 </details>
 
+## ◈ Signal check
+
+<table>
+  <tr>
+    <td width="50%"><img src="./profile-assets/envy-score.svg" width="100%" alt="ENVY GitHub score, from my commits, pull requests, issues, reviews, stars and followers" /></td>
+    <td width="50%"><img src="./profile-assets/envy-stack.svg" width="100%" alt="Tech stack: languages across my repositories and the tools I build with" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./profile-assets/envy-activity.svg" width="100%" alt="Contribution activity over the last 30 days" /></td>
+    <td width="50%"><img src="./profile-assets/envy-building.svg" width="100%" alt="Currently building: ENVY Terminal, BLACK VEIL and hash-audit" /></td>
+  </tr>
+</table>
+
+<p align="center"><sub>Panels refresh daily from my GitHub activity.</sub></p>
+
 ## ✶ Contribution skyline
 
 <p align="center">

@@ -1,0 +1,28 @@
+{
+  "username": "xzchick",
+  "outputDir": "profile-assets",
+  "stack": [
+    "Python", "Bash", "Qt", "SQLite", "Ollama",
+    "AlmaLinux", "KDE Plasma", "Podman", "RPM", "macOS"
+  ],
+  "building": [
+    {
+      "repo": "envy-terminal",
+      "name": "ENVY Terminal",
+      "status": "ACTIVE",
+      "note": "Local AI, PDF search and cited research in Terminal"
+    },
+    {
+      "repo": "envy-black-veil",
+      "name": "BLACK VEIL",
+      "status": "IN DEVELOPMENT",
+      "note": "AlmaLinux + KDE desktop and system toolset"
+    },
+    {
+      "repo": "hash-audit",
+      "name": "hash-audit",
+      "status": "ACTIVE",
+      "note": "Local hash auditing and authorized recovery"
+    }
+  ]
+}
