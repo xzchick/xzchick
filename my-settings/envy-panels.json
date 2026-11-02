@@ -18,7 +18,7 @@
       "repo": "envy-terminal",
       "name": "ENVY Terminal",
       "status": "ACTIVE",
-      "note": "Local AI, PDF search and cited research in Terminal"
+      "note": "macOS · Windows · Linux, v0.1.0 release in progress"
     },
     {
       "repo": "envy-black-veil",
@@ -69,7 +69,7 @@
       "name": "ENVY Terminal",
       "icon": "terminal",
       "accent": "pink",
-      "blurb": "Local AI in your Terminal: fast and deep models, PDF search and cited research.",
+      "blurb": "Local AI in your Terminal on macOS, Windows and Linux: fast and deep models, PDF search, cited research.",
       "tags": [
         "python",
         "ai",

@@ -63,22 +63,22 @@
 <a name="terminal"></a>
 <p align="center"><img src="./profile-assets/envy-section-terminal.svg" width="100%" alt="ENVY Terminal" /></p>
 
-<a href="https://github.com/xzchick/envy-terminal"><img src="https://raw.githubusercontent.com/xzchick/envy-terminal/main/docs/assets/hero.svg" width="100%" alt="ENVY Terminal — local AI, your documents, and evidence you can inspect" /></a>
+<a href="https://github.com/xzchick/envy-terminal"><img src="https://raw.githubusercontent.com/xzchick/envy-terminal/main/docs/assets/readme/hero.svg" width="100%" alt="ENVY Terminal: local AI in your Terminal for macOS, Windows and Linux" /></a>
 
-**My AI workspace, entirely in Terminal.** Fast local answers, a deeper Fable mode, searchable documents, and research with sources you can inspect.
+**My AI workspace, entirely in Terminal.** Fast local answers, a deeper Fable mode, searchable documents and research with sources you can inspect. The models run on your own computer, with no cloud.
 
-<table>
-  <tr>
-    <td width="33%" valign="top"><b>⌘ THINK LOCALLY</b><p>Switch between quick everyday chat and detailed work. Models run on your Mac.</p><code>/fast</code> &nbsp; <code>/deep</code></td>
-    <td width="33%" valign="top"><b>▧ FOLLOW THE EVIDENCE</b><p>Search PDFs, read scanned pages with local OCR, and distinguish facts from allegations.</p><code>/library-find</code> &nbsp; <code>/check</code></td>
-    <td width="33%" valign="top"><b>◇ KEEP CONTROL</b><p>Save chats deliberately, choose what to remember, and turn web research off.</p><code>/chat-save</code> &nbsp; <code>/offline</code></td>
-  </tr>
-</table>
+<a href="https://github.com/xzchick/envy-terminal#features"><img src="https://raw.githubusercontent.com/xzchick/envy-terminal/main/docs/assets/readme/features.svg" width="100%" alt="Fast and deep models, explicit memory, a local document library, cited research, evidence checks, private by default" /></a>
+
+<p align="center">
+  <a href="https://github.com/xzchick/envy-terminal#works-on"><img src="https://raw.githubusercontent.com/xzchick/envy-terminal/main/docs/assets/readme/os-macos.svg" width="32.5%" alt="macOS: Terminal, macOS Keychain, Apple Vision OCR" /></a>
+  <a href="https://github.com/xzchick/envy-terminal#works-on"><img src="https://raw.githubusercontent.com/xzchick/envy-terminal/main/docs/assets/readme/os-windows.svg" width="32.5%" alt="Windows: PowerShell, Credential Manager" /></a>
+  <a href="https://github.com/xzchick/envy-terminal#works-on"><img src="https://raw.githubusercontent.com/xzchick/envy-terminal/main/docs/assets/readme/os-linux.svg" width="32.5%" alt="Linux: any POSIX shell, Secret Service keyring" /></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/xzchick/envy-terminal"><b>Explore ENVY Terminal →</b></a> &nbsp; · &nbsp;
-  <a href="https://github.com/xzchick/envy-terminal/blob/main/docs/SETUP.md">Install it</a> &nbsp; · &nbsp;
-  <a href="https://github.com/xzchick/envy-terminal/blob/main/docs/COMMANDS.md">Command guide</a>
+  <a href="https://github.com/xzchick/envy-terminal#install">Install on macOS, Windows or Linux</a> &nbsp; · &nbsp;
+  <a href="https://github.com/xzchick/envy-terminal#commands">Command guide</a>
 </p>
 
 <details>
