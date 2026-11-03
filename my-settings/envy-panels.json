@@ -30,7 +30,7 @@
       "repo": "hash-audit",
       "name": "hash-audit",
       "status": "ACTIVE",
-      "note": "Local hash auditing and authorized recovery"
+      "note": "Authorized recovery on macOS, Windows and Linux, v0.1.0 in progress"
     }
   ],
   "topics": [
@@ -95,11 +95,11 @@
       "name": "Hash Audit",
       "icon": "hash",
       "accent": "lavender",
-      "blurb": "Terminal-only hash auditing and authorized password recovery. 23 formats.",
+      "blurb": "Terminal hash auditing and authorized recovery on macOS, Windows and Linux. 23 formats, Hashcat + John.",
       "tags": [
-        "security",
         "hashcat",
         "john",
+        "23 formats",
         "cli"
       ]
     }
