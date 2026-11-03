@@ -20,6 +20,7 @@
   <a href="#projects"><b>Projects</b></a> &nbsp; · &nbsp;
   <a href="#signal"><b>Stats</b></a> &nbsp; · &nbsp;
   <a href="#terminal"><b>Terminal AI</b></a> &nbsp; · &nbsp;
+  <a href="#hash"><b>Hash Audit</b></a> &nbsp; · &nbsp;
   <a href="#veil"><b>BLACK VEIL</b></a> &nbsp; · &nbsp;
   <a href="#find"><b>Find me</b></a>
 </p>
@@ -88,6 +89,31 @@
 
 <sub>Fictional sample document; no personal data shown.</sub>
 </details>
+
+<a name="hash"></a>
+<p align="center"><img src="./profile-assets/envy-section-hash.svg" width="100%" alt="Hash Audit" /></p>
+
+<a href="https://github.com/xzchick/hash-audit"><img src="https://raw.githubusercontent.com/xzchick/hash-audit/main/assets/readme/hero.svg" width="100%" alt="Hash Audit: local, terminal-based hash auditing and authorized password recovery for macOS, Windows and Linux" /></a>
+
+**Terminal-only password recovery for hashes you own or are authorized to test.** It validates hash files, identifies plausible formats and drives Hashcat or John the Ripper Jumbo, entirely on your own machine.
+
+<a href="https://github.com/xzchick/hash-audit#features"><img src="https://raw.githubusercontent.com/xzchick/hash-audit/main/assets/readme/features.svg" width="100%" alt="23 hash formats, two engines, wordlists and masks, safe by design, private results, authorized use only" /></a>
+
+<p align="center">
+  <a href="https://github.com/xzchick/hash-audit#works-on"><img src="https://raw.githubusercontent.com/xzchick/hash-audit/main/assets/readme/os-macos.svg" width="32.5%" alt="macOS: Terminal, Homebrew engines, private result folders" /></a>
+  <a href="https://github.com/xzchick/hash-audit#works-on"><img src="https://raw.githubusercontent.com/xzchick/hash-audit/main/assets/readme/os-windows.svg" width="32.5%" alt="Windows: PowerShell, engines on PATH, NTFS-locked results" /></a>
+  <a href="https://github.com/xzchick/hash-audit#works-on"><img src="https://raw.githubusercontent.com/xzchick/hash-audit/main/assets/readme/os-linux.svg" width="32.5%" alt="Linux: any POSIX shell, apt or dnf engines, private result folders" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/xzchick/hash-audit"><b>Explore Hash Audit →</b></a> &nbsp; · &nbsp;
+  <a href="https://github.com/xzchick/hash-audit#install">Install on macOS, Windows or Linux</a> &nbsp; · &nbsp;
+  <a href="https://github.com/xzchick/hash-audit#formats">All 23 formats</a>
+</p>
+
+<sub>Local and offline. For hashes you own or are authorized to test; no online lookup, no account testing, no credential collection.</sub>
+
+<p align="center"><img src="./profile-assets/envy-divider.svg" width="100%" alt="" /></p>
 
 <a name="veil"></a>
 <p align="center"><img src="./profile-assets/envy-section-veil.svg" width="100%" alt="The BLACK VEIL Workshop" /></p>

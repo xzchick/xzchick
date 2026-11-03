@@ -165,6 +165,13 @@
       "accent": "pink"
     },
     {
+      "id": "hash",
+      "title": "Hash Audit",
+      "kicker": "AUTHORIZED RECOVERY",
+      "icon": "hash",
+      "accent": "lavender"
+    },
+    {
       "id": "veil",
       "title": "The BLACK VEIL Workshop",
       "kicker": "LINUX · RECOVERY",
