@@ -173,10 +173,22 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
       </p>
     </td>
     <td width="50%" valign="top">
+      <a href="https://github.com/xzchick/envy-veil"><img src="https://raw.githubusercontent.com/xzchick/envy-veil/main/assets/readme/hero.svg" width="100%" alt="ENVY Veil — hide an AES-256-GCM encrypted file inside a lossless image or audio carrier for macOS, Windows and Linux" /></a>
+      <p><b>◌ ENVY Veil — more than meets the eye.</b> Hide an AES-256-GCM encrypted file inside a lossless PNG, BMP or WAV carrier with LSB steganography, watch a live capacity meter, and reveal it with your passphrase. Honest by design: concealment is not the security — the encryption is.</p>
+      <p><code>AES-256-GCM</code> <code>steganography</code> <code>PNG · WAV</code> <code>offline</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-veil"><b>Explore Veil →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-veil#install">Install</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <br />
-      <p><b>✦ More on the way.</b> Other portable BLACK VEIL tools are being split out next — among them Veil, Orbit, SkyWatch, Oracle and an Integrity Monitor — each as its own standalone app with native windows and cross-platform bundles built in CI.</p>
+      <p><b>✦ More on the way.</b> Other portable BLACK VEIL tools are being split out next — among them Orbit, SkyWatch, Oracle and an Integrity Monitor — each as its own standalone app with native windows and cross-platform bundles built in CI.</p>
       <p><code>coming soon</code></p>
     </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
@@ -197,7 +209,7 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
   <img src="https://img.shields.io/badge/BLACK_VEIL-Linux_OS_·_in_progress-ac8cff?style=for-the-badge&labelColor=050713" alt="BLACK VEIL Linux OS — in progress" />
 </p>
 
-**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. The portable tools that once lived inside it are being pulled out into their own [standalone apps](#apps) — Vault, the Cryptography Workbench, Casebook, Ops Desk and Evidence Vault are the first five — so the desktop itself can stay focused as it comes together.
+**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. The portable tools that once lived inside it are being pulled out into their own [standalone apps](#apps) — Vault, the Cryptography Workbench, Casebook, Ops Desk, Evidence Vault and Veil are the first six — so the desktop itself can stay focused as it comes together.
 
 <table>
   <tr>
