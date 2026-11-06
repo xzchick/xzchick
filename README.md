@@ -142,6 +142,42 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/xzchick/envy-casebook"><img src="https://raw.githubusercontent.com/xzchick/envy-casebook/main/assets/readme/hero.svg" width="100%" alt="ENVY Casebook — encrypted, revision-preserving case notes in a native window for macOS, Windows and Linux" /></a>
+      <p><b>🗂 ENVY Casebook — case notes, kept honest.</b> Encrypted notes, entities, events and links with a hash-chained revision journal, a link chart and event timelines. Every save is a new encrypted revision; plaintext HTML/JSON export when you choose.</p>
+      <p><code>AES-256-GCM</code> <code>hash chain</code> <code>link chart</code> <code>offline</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-casebook"><b>Explore Casebook →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-casebook#install">Install</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/xzchick/envy-ops-desk"><img src="https://raw.githubusercontent.com/xzchick/envy-ops-desk/main/assets/readme/hero.svg" width="100%" alt="ENVY Ops Desk — encrypted, revision-preserving operations plans with authenticated handoffs for macOS, Windows and Linux" /></a>
+      <p><b>▦ ENVY Ops Desk — plan it locally.</b> Encrypted role aliases, assignments, progress, check-ins and acknowledgements with a hash-chained journal, computed due states and authenticated handoff bundles. A handoff proves the passphrase, not an identity.</p>
+      <p><code>AES-256-GCM</code> <code>due states</code> <code>handoffs</code> <code>offline</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-ops-desk"><b>Explore Ops Desk →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-ops-desk#install">Install</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/xzchick/envy-evidence-vault"><img src="https://raw.githubusercontent.com/xzchick/envy-evidence-vault/main/assets/readme/hero.svg" width="100%" alt="ENVY Evidence Vault — encrypted copied-file intake with a hash-verified custody journal for macOS, Windows and Linux" /></a>
+      <p><b>▧ ENVY Evidence Vault — follow the fingerprints.</b> Copied-file intake into an encrypted vault, keyed by the SHA-256 of each file's original bytes, with verification that re-hashes every object and a hash-chained custody journal. Integrity since intake — not origin.</p>
+      <p><code>AES-256-GCM</code> <code>SHA-256</code> <code>custody log</code> <code>offline</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-evidence-vault"><b>Explore Evidence Vault →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-evidence-vault#install">Install</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <br />
+      <p><b>✦ More on the way.</b> Other portable BLACK VEIL tools are being split out next — among them Veil, Orbit, SkyWatch, Oracle and an Integrity Monitor — each as its own standalone app with native windows and cross-platform bundles built in CI.</p>
+      <p><code>coming soon</code></p>
+    </td>
+  </tr>
 </table>
 
 <p align="center">
@@ -157,7 +193,11 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
 <a name="veil"></a>
 <p align="center"><img src="./profile-assets/envy-section-veil.svg" width="100%" alt="The BLACK VEIL Workshop" /></p>
 
-A Linux environment and a growing set of tools for system visibility, recovery, and deliberate control. The most portable of these are being split out as [standalone apps](#apps) — Vault and the Cryptography Workbench are the first two.
+<p align="center">
+  <img src="https://img.shields.io/badge/BLACK_VEIL-Linux_OS_·_in_progress-ac8cff?style=for-the-badge&labelColor=050713" alt="BLACK VEIL Linux OS — in progress" />
+</p>
+
+**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. The portable tools that once lived inside it are being pulled out into their own [standalone apps](#apps) — Vault, the Cryptography Workbench, Casebook, Ops Desk and Evidence Vault are the first five — so the desktop itself can stay focused as it comes together.
 
 <table>
   <tr>
@@ -177,70 +217,22 @@ A Linux environment and a growing set of tools for system visibility, recovery, 
 <p align="center"><a href="https://github.com/xzchick/envy-black-veil"><b>Explore BLACK VEIL →</b></a></p>
 
 <details>
-<summary><b>Inside the workshop — development screenshots</b></summary>
+<summary><b>Inside the workshop — development screenshot</b></summary>
 <br />
 
 [![RECLAIM recovery-map development preview](./reclaim-development.png)](./reclaim-development.png)
 
 <sub>Synthetic recovery-map test data; not a real disk recovery result.</sub>
-
-<table><tr>
-<td width="50%" valign="top"><b>COMMAND CENTER</b><br /><br /><img src="./command-center-development.png" width="100%" alt="Command Center development interface" /><p>Searchable launchers, system actions, and an output panel.</p></td>
-<td width="50%" valign="top"><b>OPS DESK</b><br /><br /><img src="./ops-desk-development.png" width="100%" alt="Ops Desk development interface using a sample task" /><p>Encrypted local planning, role aliases, progress, and check-ins.</p></td>
-</tr></table>
-</details>
-
-<details>
-<summary><b>Explore the BLACK VEIL toolset</b></summary>
-
-## ⌘ Inside BLACK VEIL
-
-<p>Purpose-built tools sharing one dark, neon interface. These are part of my development suite; Linux desktop and workflow testing is ongoing.</p>
-
-<table>
-  <tr>
-    <td width="50%" valign="top"><b>◈ GUARDIAN · Know your system</b><p>SELinux, firewall state, listening sockets, failed services, and storage encryption visibility in one security overview. Missing information stays unknown.</p><code>systemctl --failed</code><br /><sub>A little light on the services hiding in the shadows.</sub></td>
-    <td width="50%" valign="top"><b>↺ RESTORE · A way back</b><p>Restic-powered encrypted backups, snapshot browsing, repository checks, and recovery into a new destination.</p><code>envy gui restore</code><br /><sub>Recovery points for the things worth keeping.</sub></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>◇ VAULT · Keep it yours</b><p>Passphrase-protected file encryption with authenticated encryption and a separate destination for each result.</p><code>envy gui vault</code></td>
-    <td valign="top"><b>◌ VEIL · More than meets the eye</b><p>Pack encrypted files and folders into supported image, audio, and video carriers, then unpack them with the right passphrase.</p><code>envy gui veil</code></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>⌁ PURGE · Clear a little space</b><p>Preview old cache files, review what is eligible, and move a selected item to Trash. Deliberate cleanup with a chance to look first.</p><code>du -sh ~/.cache</code><br /><sub>See how much space the dust is taking up.</sub></td>
-    <td valign="top"><b>▧ EVIDENCE VAULT · Follow the fingerprints</b><p>Local case manifests, copied-file intake, and hash verification for tracking the integrity of collected files.</p><code>envy gui evidence-vault</code><br /><sub>Integrity checks, with a record to follow.</sub></td>
-  </tr>
-</table>
-
-<details>
-<summary><b>✦ Open the command deck · <code>envy gui command-center</code></b></summary>
-
-### Systems, signals & experiments
-
-| Tool | What I'm building |
-| :--- | :--- |
-| **⌘ Command Center** | A searchable launch point for the suite, with a system overview, live metrics, and configuration controls. One place to find the next tool. |
-| **⌁ Network Lab** | Inspect local interfaces, routing, listening services, and VPN state, then open KDE's connection editor. The spirit of `ip route` with a dedicated control panel. |
-| **⚒ Forge** | Rootless Podman image and container management, explicit image pulls, and restricted workspaces for experiments. `podman ps` energy, BLACK VEIL styling. |
-| **◈ Oracle** | A local-model interface powered by Ollama, with deliberate model downloads, prompts, and explicit encrypted-history setup. A little oracle in the machine. |
-| **▣ Device Center** | Storage identity, PCI drivers, USB, audio, Bluetooth, wireless, and available thermal/GPU readings. Know the hardware behind the glow. |
-| **↗ Package Center** | RPM, Flatpak, and container inventories, plus RPM search and interactive installation from configured repositories. `rpm -qa` is only the beginning. |
-| **✧ Orbit** | Download orbital elements on request, then predict satellite positions offline with Skyfield. Element age and checksums stay visible. A terminal with its eyes on the stars. |
-| **▦ Ops Desk** | Encrypted local plans, role aliases, task assignments, progress, and scheduled check-ins. Save revisions and exchange authenticated handoff files. |
-
 </details>
 
 <p align="center">
   <code>printf '%s\n' 'curiosity → experiments → useful tools'</code><br />
-  <sub>The <code>envy gui …</code> commands open tools in an installed BLACK VEIL development environment.</sub>
+  <sub>The portable tools are moving to <a href="#apps">standalone apps</a>; the Linux desktop is still coming together.</sub>
 </p>
 
 <p align="center">
   <sub><b>CURRENT FOCUS</b> &nbsp; Installation · recovery · desktop integration · testing</sub>
 </p>
-
-
-</details>
 
 ---
 
