@@ -21,6 +21,7 @@
   <a href="#signal"><b>Stats</b></a> &nbsp; · &nbsp;
   <a href="#terminal"><b>Terminal AI</b></a> &nbsp; · &nbsp;
   <a href="#hash"><b>Hash Audit</b></a> &nbsp; · &nbsp;
+  <a href="#apps"><b>Apps</b></a> &nbsp; · &nbsp;
   <a href="#veil"><b>BLACK VEIL</b></a> &nbsp; · &nbsp;
   <a href="#find"><b>Find me</b></a>
 </p>
@@ -115,10 +116,48 @@
 
 <p align="center"><img src="./profile-assets/envy-divider.svg" width="100%" alt="" /></p>
 
+<a name="apps"></a>
+<p align="center"><img src="./profile-assets/envy-section-apps.svg" width="100%" alt="Standalone Apps" /></p>
+
+Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** — a real native window in the ENVY neon theme, with no Python to install. Each ships its own signed bundles for **macOS, Windows and Linux** through CI.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/xzchick/envy-vault"><img src="https://raw.githubusercontent.com/xzchick/envy-vault/main/assets/readme/hero.svg" width="100%" alt="ENVY Vault — passphrase file encryption in a native window for macOS, Windows and Linux" /></a>
+      <p><b>◇ ENVY Vault — keep it yours.</b> Passphrase-protected file encryption with AES-256-GCM and scrypt, in an animated native window. Each result goes to a new file; your original is never touched or overwritten.</p>
+      <p><code>AES-256-GCM</code> <code>scrypt</code> <code>PyQt6</code> <code>offline</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-vault"><b>Explore Vault →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-vault#install">Install</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/xzchick/envy-crypto-workbench"><img src="https://raw.githubusercontent.com/xzchick/envy-crypto-workbench/main/assets/readme/hero.svg" width="100%" alt="ENVY Cryptography Workbench — offline encoding, classical ciphers and text analysis for macOS, Windows and Linux" /></a>
+      <p><b>⬡ ENVY Cryptography Workbench — encode, cipher, analyze.</b> Base64 and hex, ROT and Atbash, chained into recipes with live output, plus a frequency/entropy analysis tab with a 26-shift ROT brute force. Honest by design: encodings, not encryption.</p>
+      <p><code>Base64 · hex</code> <code>ROT · Atbash</code> <code>analysis</code> <code>no deps</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-crypto-workbench"><b>Explore Workbench →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-crypto-workbench#install">Install</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/xzchick/envy-vault#works-on"><img src="https://raw.githubusercontent.com/xzchick/envy-vault/main/assets/readme/os-macos.svg" width="24%" alt="macOS: native window, bundled Python and Qt" /></a>
+  <a href="https://github.com/xzchick/envy-vault#works-on"><img src="https://raw.githubusercontent.com/xzchick/envy-vault/main/assets/readme/os-windows.svg" width="24%" alt="Windows: native window, bundled Python and Qt" /></a>
+  <a href="https://github.com/xzchick/envy-vault#works-on"><img src="https://raw.githubusercontent.com/xzchick/envy-vault/main/assets/readme/os-linux.svg" width="24%" alt="Linux: X11 or Wayland window, bundled Python and Qt" /></a>
+</p>
+
+<sub>Native windows, not browser views. Offline; no telemetry, no network, no accounts. Vault protects files; the Workbench is for reversible encodings and teaching ciphers, not security.</sub>
+
+<p align="center"><img src="./profile-assets/envy-divider.svg" width="100%" alt="" /></p>
+
 <a name="veil"></a>
 <p align="center"><img src="./profile-assets/envy-section-veil.svg" width="100%" alt="The BLACK VEIL Workshop" /></p>
 
-A Linux environment and a growing set of tools for system visibility, recovery, and deliberate control.
+A Linux environment and a growing set of tools for system visibility, recovery, and deliberate control. The most portable of these are being split out as [standalone apps](#apps) — Vault and the Cryptography Workbench are the first two.
 
 <table>
   <tr>

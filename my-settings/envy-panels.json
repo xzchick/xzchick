@@ -172,6 +172,13 @@
       "accent": "lavender"
     },
     {
+      "id": "apps",
+      "title": "Standalone Apps",
+      "kicker": "MAC · WINDOWS · LINUX",
+      "icon": "lock",
+      "accent": "cyan"
+    },
+    {
       "id": "veil",
       "title": "The BLACK VEIL Workshop",
       "kicker": "LINUX · RECOVERY",
