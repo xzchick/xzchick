@@ -119,7 +119,7 @@
 <a name="apps"></a>
 <p align="center"><img src="./profile-assets/envy-section-apps.svg" width="100%" alt="Standalone Apps" /></p>
 
-Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** — a real native window in the ENVY neon theme, with no Python to install. Each ships its own signed bundles for **macOS, Windows and Linux** through CI.
+**Eleven tools** from the BLACK VEIL workshop, pulled out as **standalone desktop apps** — a real native window in the ENVY neon theme, with no Python to install. Each ships its own bundles for **macOS, Windows and Linux** through CI, and installs straight onto [BLACK VEIL](#veil) the OS.
 
 <table>
   <tr>
@@ -222,6 +222,21 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/xzchick/envy-hypothesis"><img src="https://raw.githubusercontent.com/xzchick/envy-hypothesis/main/assets/readme/hero.svg" width="100%" alt="ENVY Hypothesis — Analysis of Competing Hypotheses for macOS, Windows and Linux" /></a>
+      <p><b>⋔ ENVY Hypothesis — weigh the competing explanations.</b> List the competing hypotheses and the evidence, rate each evidence/hypothesis cell from very inconsistent to very consistent, and rank the hypotheses by how little the evidence contradicts them — the Analysis of Competing Hypotheses method. Honest by design: it structures your reasoning, it supplies no facts.</p>
+      <p><code>AES-256-GCM</code> <code>ACH</code> <code>diagnosticity</code> <code>offline</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-hypothesis"><b>Explore Hypothesis →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-hypothesis#install">Install</a>
+      </p>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/xzchick/envy-black-veil"><img src="./profile-assets/envy-project-envy-black-veil.svg" width="92%" alt="ENVY BLACK VEIL — the standalone OS these tools install onto" /></a>
+      <p><b>▚ ENVY BLACK VEIL — the OS they live on.</b> All eleven apps install onto <a href="#veil">BLACK VEIL</a>, my standalone Linux OS, with one command: <code>envy-tools install all</code>. Or run each on macOS and Windows too.</p>
+    </td>
+  </tr>
 </table>
 
 <p align="center">
@@ -238,10 +253,11 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
 <p align="center"><img src="./profile-assets/envy-section-veil.svg" width="100%" alt="The BLACK VEIL Workshop" /></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/BLACK_VEIL-Linux_OS_·_in_progress-ac8cff?style=for-the-badge&labelColor=050713" alt="BLACK VEIL Linux OS — in progress" />
+  <img src="https://img.shields.io/badge/BLACK_VEIL-standalone_Linux_OS_·_v0.1.0-ac8cff?style=for-the-badge&labelColor=050713" alt="BLACK VEIL — standalone Linux OS, v0.1.0" />
+  <img src="https://img.shields.io/badge/boots_from-USB_·_SSD_·_HDD-35e8ff?style=for-the-badge&labelColor=050713" alt="Boots from external drives" />
 </p>
 
-**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. BLACK VEIL ships as *just the OS* — a clean, focused base — and every ENVY tool installs onto it afterwards: once it's running, add [Vault, the Cryptography Workbench, Casebook, Ops Desk, Evidence Vault, Veil, the Integrity Monitor, Orbit, SkyWatch and Oracle](#apps) from their Linux release bundles or with `pip`, as many or as few as you want. The desktop stays lean; the tools are add-ons, not baggage.
+**My own Linux OS — now a standalone, buildable OS.** An **AlmaLinux 10 + KDE Plasma 6** desktop, themed end to end in the ENVY neon palette — GRUB, the Plymouth boot splash (with a LUKS passphrase prompt), the SDDM login, the desktop and the terminal. The [repo](https://github.com/xzchick/envy-black-veil) is the real build system: a live-ISO Kickstart, the theme packages, an ENVY-branded Calamares installer, and CI. BLACK VEIL ships as *just the OS* — a clean, focused base — and every ENVY tool installs onto it afterwards with one command, `envy-tools install all` (or pick your own: [Vault, the Cryptography Workbench, Casebook, Ops Desk, Evidence Vault, Veil, the Integrity Monitor, Orbit, SkyWatch, Oracle and Hypothesis](#apps)). It's built to be **portable** — install it onto an external SSD, HDD or USB drive and boot it on almost any PC. Encrypted and offline by design: SELinux enforcing, the firewall on, nothing listening.
 
 <table>
   <tr>
