@@ -204,11 +204,19 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/xzchick/envy-skywatch"><img src="https://raw.githubusercontent.com/xzchick/envy-skywatch/main/assets/readme/hero.svg" width="100%" alt="ENVY SkyWatch — encrypted watchlists and offline content scanning for macOS, Windows and Linux" /></a>
+      <p><b>◈ ENVY SkyWatch — watch for what matters.</b> Keep an encrypted watchlist of terms — keywords or file hashes — then scan a file or folder offline and read every hit with its file, line and context, ranked by severity, with a hash-chained scan journal. Honest by design: a hit is a literal match, not a verdict.</p>
+      <p><code>AES-256-GCM</code> <code>hash chain</code> <code>offline scan</code> <code>no deps</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-skywatch"><b>Explore SkyWatch →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-skywatch#install">Install</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <br />
-      <p><b>✦ More on the way.</b> Other portable BLACK VEIL tools are being split out next — among them SkyWatch and Oracle — each as its own standalone app with native windows and cross-platform bundles built in CI.</p>
+      <p><b>✦ More on the way.</b> One more portable BLACK VEIL tool is being split out next — Oracle — as its own standalone app with a native window and cross-platform bundles built in CI.</p>
       <p><code>coming soon</code></p>
     </td>
-    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
@@ -229,7 +237,7 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
   <img src="https://img.shields.io/badge/BLACK_VEIL-Linux_OS_·_in_progress-ac8cff?style=for-the-badge&labelColor=050713" alt="BLACK VEIL Linux OS — in progress" />
 </p>
 
-**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. The portable tools that once lived inside it are being pulled out into their own [standalone apps](#apps) — Vault, the Cryptography Workbench, Casebook, Ops Desk, Evidence Vault, Veil, the Integrity Monitor and Orbit are the first eight — so the desktop itself can stay focused as it comes together.
+**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. The portable tools that once lived inside it are being pulled out into their own [standalone apps](#apps) — Vault, the Cryptography Workbench, Casebook, Ops Desk, Evidence Vault, Veil, the Integrity Monitor, Orbit and SkyWatch are the first nine — so the desktop itself can stay focused as it comes together.
 
 <table>
   <tr>
