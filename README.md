@@ -193,10 +193,22 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
       </p>
     </td>
     <td width="50%" valign="top">
+      <a href="https://github.com/xzchick/envy-orbit"><img src="https://raw.githubusercontent.com/xzchick/envy-orbit/main/assets/readme/hero.svg" width="100%" alt="ENVY Orbit — encrypted recurring-cadence tracking for macOS, Windows and Linux" /></a>
+      <p><b>⊚ ENVY Orbit — keep everything in orbit.</b> Track recurring obligations by cadence — rotate a key every 90 days, verify a backup weekly — log each completion into a hash-chained journal, and see what is overdue, due, soon or on track. Honest by design: it records that you logged it, not that you did it.</p>
+      <p><code>AES-256-GCM</code> <code>hash chain</code> <code>cadence</code> <code>offline</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-orbit"><b>Explore Orbit →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-orbit#install">Install</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <br />
-      <p><b>✦ More on the way.</b> Other portable BLACK VEIL tools are being split out next — among them Orbit, SkyWatch and Oracle — each as its own standalone app with native windows and cross-platform bundles built in CI.</p>
+      <p><b>✦ More on the way.</b> Other portable BLACK VEIL tools are being split out next — among them SkyWatch and Oracle — each as its own standalone app with native windows and cross-platform bundles built in CI.</p>
       <p><code>coming soon</code></p>
     </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
@@ -217,7 +229,7 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
   <img src="https://img.shields.io/badge/BLACK_VEIL-Linux_OS_·_in_progress-ac8cff?style=for-the-badge&labelColor=050713" alt="BLACK VEIL Linux OS — in progress" />
 </p>
 
-**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. The portable tools that once lived inside it are being pulled out into their own [standalone apps](#apps) — Vault, the Cryptography Workbench, Casebook, Ops Desk, Evidence Vault, Veil and the Integrity Monitor are the first seven — so the desktop itself can stay focused as it comes together.
+**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. The portable tools that once lived inside it are being pulled out into their own [standalone apps](#apps) — Vault, the Cryptography Workbench, Casebook, Ops Desk, Evidence Vault, Veil, the Integrity Monitor and Orbit are the first eight — so the desktop itself can stay focused as it comes together.
 
 <table>
   <tr>
