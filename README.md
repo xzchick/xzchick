@@ -48,7 +48,7 @@
 <p align="center"><img src="./profile-assets/envy-heatmap.svg" width="100%" alt="Contribution activity over the past year in ENVY neon colors" /></p>
 
 <p align="center">
-  <img src="./profile-assets/envy-building.svg" width="49.5%" alt="Currently building: ENVY Terminal, BLACK VEIL and hash-audit" />
+  <img src="./profile-assets/envy-building.svg" width="49.5%" alt="Currently building: ENVY standalone apps (newest: Oracle), BLACK VEIL and ENVY Terminal" />
   <img src="./profile-assets/envy-recent.svg" width="49.5%" alt="My most recent public GitHub activity" />
 </p>
 
@@ -213,9 +213,13 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
       </p>
     </td>
     <td width="50%" valign="top">
-      <br />
-      <p><b>✦ More on the way.</b> One more portable BLACK VEIL tool is being split out next — Oracle — as its own standalone app with a native window and cross-platform bundles built in CI.</p>
-      <p><code>coming soon</code></p>
+      <a href="https://github.com/xzchick/envy-oracle"><img src="https://raw.githubusercontent.com/xzchick/envy-oracle/main/assets/readme/hero.svg" width="100%" alt="ENVY Oracle — encrypted forecasts and calibration scoring for macOS, Windows and Linux" /></a>
+      <p><b>✦ ENVY Oracle — hold yourself to your predictions.</b> Record a prediction with a confidence from 1 to 99 percent, resolve it yes or no, and see how well your confidence matched reality — Brier score, accuracy and a calibration table by band. Honest by design: it scores your foresight, it does not foretell.</p>
+      <p><code>AES-256-GCM</code> <code>hash chain</code> <code>calibration</code> <code>offline</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-oracle"><b>Explore Oracle →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-oracle#install">Install</a>
+      </p>
     </td>
   </tr>
 </table>
@@ -237,7 +241,7 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
   <img src="https://img.shields.io/badge/BLACK_VEIL-Linux_OS_·_in_progress-ac8cff?style=for-the-badge&labelColor=050713" alt="BLACK VEIL Linux OS — in progress" />
 </p>
 
-**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. The portable tools that once lived inside it are being pulled out into their own [standalone apps](#apps) — Vault, the Cryptography Workbench, Casebook, Ops Desk, Evidence Vault, Veil, the Integrity Monitor, Orbit and SkyWatch are the first nine — so the desktop itself can stay focused as it comes together.
+**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. The portable tools that once lived inside it are now pulled out into their own [standalone apps](#apps) — Vault, the Cryptography Workbench, Casebook, Ops Desk, Evidence Vault, Veil, the Integrity Monitor, Orbit, SkyWatch and Oracle, ten in all — so the desktop itself can stay focused as it comes together.
 
 <table>
   <tr>
