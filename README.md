@@ -48,7 +48,7 @@
 <p align="center"><img src="./profile-assets/envy-heatmap.svg" width="100%" alt="Contribution activity over the past year in ENVY neon colors" /></p>
 
 <p align="center">
-  <img src="./profile-assets/envy-building.svg" width="49.5%" alt="Currently building: ENVY standalone apps (newest: Oracle), BLACK VEIL and ENVY Terminal" />
+  <img src="./profile-assets/envy-building.svg" width="49.5%" alt="Currently building, not yet released: BLACK VEIL the OS, ENVY apps v0.2 features, and ENVY Terminal v0.1.0" />
   <img src="./profile-assets/envy-recent.svg" width="49.5%" alt="My most recent public GitHub activity" />
 </p>
 
@@ -241,7 +241,7 @@ Tools from the BLACK VEIL workshop, pulled out as **standalone desktop apps** �
   <img src="https://img.shields.io/badge/BLACK_VEIL-Linux_OS_·_in_progress-ac8cff?style=for-the-badge&labelColor=050713" alt="BLACK VEIL Linux OS — in progress" />
 </p>
 
-**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. The portable tools that once lived inside it are now pulled out into their own [standalone apps](#apps) — Vault, the Cryptography Workbench, Casebook, Ops Desk, Evidence Vault, Veil, the Integrity Monitor, Orbit, SkyWatch and Oracle, ten in all — so the desktop itself can stay focused as it comes together.
+**My own Linux OS, still in progress.** An AlmaLinux + KDE Plasma desktop with its own identity, built for system visibility, recovery, and deliberate control. BLACK VEIL ships as *just the OS* — a clean, focused base — and every ENVY tool installs onto it afterwards: once it's running, add [Vault, the Cryptography Workbench, Casebook, Ops Desk, Evidence Vault, Veil, the Integrity Monitor, Orbit, SkyWatch and Oracle](#apps) from their Linux release bundles or with `pip`, as many or as few as you want. The desktop stays lean; the tools are add-ons, not baggage.
 
 <table>
   <tr>

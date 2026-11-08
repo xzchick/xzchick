@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title description">
   <title id="title">Currently Building</title>
-  <desc id="description">Currently building: ENVY standalone apps (ACTIVE); BLACK VEIL (IN DEVELOPMENT); ENVY Terminal (ACTIVE).</desc>
+  <desc id="description">Currently building, not yet released: BLACK VEIL the OS (IN DEVELOPMENT); ENVY apps v0.2 features (IN PROGRESS); ENVY Terminal v0.1.0 (IN PROGRESS).</desc>
   <defs>
     <linearGradient id="edge"><stop stop-color="#ff3db4" stop-opacity=".55"/><stop offset=".5" stop-color="#ac8cff" stop-opacity=".2"/><stop offset="1" stop-color="#35e8ff" stop-opacity=".65"/></linearGradient>
     <linearGradient id="neon"><stop stop-color="#ff3db4"/><stop offset="1" stop-color="#35e8ff"/></linearGradient>
@@ -20,28 +20,28 @@
     </g>
     <path d="M34 96h55" stroke="#ff3db4" stroke-width="2"/>
     <path d="M95 96h24" stroke="#ac8cff" stroke-opacity=".4" stroke-width="2"/>
-    <circle class="signal" cx="40" cy="140" r="5" fill="#35e8ff"/>
+    <circle class="signal" cx="40" cy="140" r="5" fill="#ff3db4"/>
     <g font-family="Arial, Helvetica, sans-serif">
-      <text x="58" y="146" font-size="19" font-weight="700" fill="#f2f4ff">ENVY standalone apps</text>
-      <text x="58" y="170" font-size="14" fill="#b9c3df">Ten native apps, macOS · Windows · Linux — newest: Oracle</text>
-      <rect x="619" y="128" width="67" height="24" rx="12" fill="none" stroke="#35e8ff" stroke-opacity=".6"/>
-      <text x="652" y="144" font-size="11" letter-spacing="1.2" font-weight="600" fill="#35e8ff" text-anchor="middle">ACTIVE</text>
-      <text x="686" y="170" font-size="12" fill="#b9c3df" opacity=".7" text-anchor="end">last push Nov 8</text>
+      <text x="58" y="146" font-size="19" font-weight="700" fill="#f2f4ff">BLACK VEIL</text>
+      <text x="58" y="170" font-size="14" fill="#b9c3df">AlmaLinux + KDE desktop — the OS itself, not yet released</text>
+      <rect x="559" y="128" width="127" height="24" rx="12" fill="none" stroke="#ff3db4" stroke-opacity=".6"/>
+      <text x="622" y="144" font-size="11" letter-spacing="1.2" font-weight="600" fill="#ff3db4" text-anchor="middle">IN DEVELOPMENT</text>
+      <text x="686" y="170" font-size="12" fill="#b9c3df" opacity=".7" text-anchor="end">last push Oct 26</text>
     </g>
-    <circle cx="40" cy="200" r="5" fill="#ff3db4"/>
+    <circle class="signal" cx="40" cy="200" r="5" fill="#ac8cff"/>
     <g font-family="Arial, Helvetica, sans-serif">
-      <text x="58" y="206" font-size="19" font-weight="700" fill="#f2f4ff">BLACK VEIL</text>
-      <text x="58" y="230" font-size="14" fill="#b9c3df">AlmaLinux + KDE desktop and system toolset</text>
-      <rect x="559" y="188" width="127" height="24" rx="12" fill="none" stroke="#ff3db4" stroke-opacity=".6"/>
-      <text x="622" y="204" font-size="11" letter-spacing="1.2" font-weight="600" fill="#ff3db4" text-anchor="middle">IN DEVELOPMENT</text>
-      <text x="686" y="230" font-size="12" fill="#b9c3df" opacity=".7" text-anchor="end">last push Oct 26</text>
+      <text x="58" y="206" font-size="19" font-weight="700" fill="#f2f4ff">ENVY apps · v0.2</text>
+      <text x="58" y="230" font-size="14" fill="#b9c3df">Next features in review — roadmaps open, PRs underway, not released yet</text>
+      <rect x="578" y="188" width="108" height="24" rx="12" fill="none" stroke="#ac8cff" stroke-opacity=".6"/>
+      <text x="632" y="204" font-size="11" letter-spacing="1.2" font-weight="600" fill="#ac8cff" text-anchor="middle">IN PROGRESS</text>
+      <text x="686" y="230" font-size="12" fill="#b9c3df" opacity=".7" text-anchor="end">updated Nov 8</text>
     </g>
-    <circle class="signal" cx="40" cy="260" r="5" fill="#35e8ff"/>
+    <circle cx="40" cy="260" r="5" fill="#35e8ff"/>
     <g font-family="Arial, Helvetica, sans-serif">
       <text x="58" y="266" font-size="19" font-weight="700" fill="#f2f4ff">ENVY Terminal</text>
-      <text x="58" y="290" font-size="14" fill="#b9c3df">Local AI in a native window, macOS · Windows · Linux, v0.1.0 in progress</text>
-      <rect x="619" y="248" width="67" height="24" rx="12" fill="none" stroke="#35e8ff" stroke-opacity=".6"/>
-      <text x="652" y="264" font-size="11" letter-spacing="1.2" font-weight="600" fill="#35e8ff" text-anchor="middle">ACTIVE</text>
+      <text x="58" y="290" font-size="14" fill="#b9c3df">Local AI in a native window — v0.1.0 not yet released</text>
+      <rect x="578" y="248" width="108" height="24" rx="12" fill="none" stroke="#ac8cff" stroke-opacity=".6"/>
+      <text x="632" y="264" font-size="11" letter-spacing="1.2" font-weight="600" fill="#ac8cff" text-anchor="middle">IN PROGRESS</text>
       <text x="686" y="290" font-size="12" fill="#b9c3df" opacity=".7" text-anchor="end">last push Nov 2</text>
     </g>
   </g>
