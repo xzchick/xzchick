@@ -119,7 +119,7 @@
 <a name="apps"></a>
 <p align="center"><img src="./profile-assets/envy-section-apps.svg" width="100%" alt="Standalone Apps" /></p>
 
-**Eleven tools** from the BLACK VEIL workshop, pulled out as **standalone desktop apps** — a real native window in the ENVY neon theme, with no Python to install. Each ships its own bundles for **macOS, Windows and Linux** through CI, and installs straight onto [BLACK VEIL](#veil) the OS.
+**Eleven tools** from the BLACK VEIL workshop, pulled out as **standalone desktop apps** — a real native window in the ENVY neon theme, with no Python to install. Each ships its own bundles for **macOS, Windows and Linux** through CI, installs on Apple-Silicon Macs with a single `brew install --cask` from the [`xzchick/envy`](https://github.com/xzchick/homebrew-envy) Homebrew tap, and installs straight onto [BLACK VEIL](#veil) the OS.
 
 <table>
   <tr>
