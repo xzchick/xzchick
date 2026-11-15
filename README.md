@@ -48,7 +48,7 @@
 <p align="center"><img src="./profile-assets/envy-heatmap.svg" width="100%" alt="Contribution activity over the past year in ENVY neon colors" /></p>
 
 <p align="center">
-  <img src="./profile-assets/envy-building.svg" width="49.5%" alt="Currently building, not yet released: BLACK VEIL the OS, ENVY apps v0.2 features, and ENVY Terminal v0.1.0" />
+  <img src="./profile-assets/envy-building.svg" width="49.5%" alt="Currently building, not yet released: BLACK VEIL the OS and ENVY Terminal v0.1.0 (the standalone apps are released, now at v0.2.0)" />
   <img src="./profile-assets/envy-recent.svg" width="49.5%" alt="My most recent public GitHub activity" />
 </p>
 
