@@ -15,12 +15,6 @@
   ],
   "building": [
     {
-      "repo": "envy-tools",
-      "name": "ENVY Tools",
-      "status": "ACTIVE",
-      "note": "Installer for every ENVY app on any OS, v0.1.0 in progress"
-    },
-    {
       "repo": "envy-black-veil",
       "name": "BLACK VEIL",
       "status": "IN DEVELOPMENT",
@@ -31,6 +25,12 @@
       "name": "ENVY Terminal",
       "status": "ACTIVE",
       "note": "macOS · Windows · Linux, v0.1.0 release in progress"
+    },
+    {
+      "repo": "hash-audit",
+      "name": "hash-audit",
+      "status": "ACTIVE",
+      "note": "Authorized recovery on macOS, Windows and Linux, v0.1.0 in progress"
     }
   ],
   "topics": [
@@ -170,20 +170,6 @@
       "kicker": "AUTHORIZED RECOVERY",
       "icon": "hash",
       "accent": "lavender"
-    },
-    {
-      "id": "recon",
-      "title": "ENVY Recon",
-      "kicker": "OSINT TERMINAL",
-      "icon": "radar",
-      "accent": "cyan"
-    },
-    {
-      "id": "tunnel",
-      "title": "ENVY Tunnel",
-      "kicker": "SELF-HOSTED VPN",
-      "icon": "tunnel",
-      "accent": "pink"
     },
     {
       "id": "apps",
