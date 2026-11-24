@@ -163,7 +163,7 @@ envy-tunnel up laptop        # connect this computer
 <a name="apps"></a>
 <p align="center"><img src="./profile-assets/envy-section-apps.svg" width="100%" alt="Standalone Apps" /></p>
 
-**Eleven tools** from the BLACK VEIL workshop, pulled out as **standalone desktop apps** — a real native window in the ENVY neon theme, with no Python to install. Each ships its own bundles for **macOS, Windows and Linux** through CI, installs on Apple-Silicon Macs with a single `brew install --cask` from the [`xzchick/envy`](https://github.com/xzchick/homebrew-envy) Homebrew tap, and installs straight onto [BLACK VEIL](#veil) the OS.
+**Thirteen tools** from the BLACK VEIL workshop, pulled out as **standalone desktop apps** — a real native window in the ENVY neon theme, with no Python to install. Each ships its own bundles for **macOS, Windows and Linux** through CI, installs on Apple-Silicon Macs with a single `brew install --cask` from the [`xzchick/envy`](https://github.com/xzchick/homebrew-envy) Homebrew tap, and installs straight onto [BLACK VEIL](#veil) the OS.
 
 <table>
   <tr>
@@ -276,9 +276,29 @@ envy-tunnel up laptop        # connect this computer
         <a href="https://github.com/xzchick/envy-hypothesis#install">Install</a>
       </p>
     </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/xzchick/envy-recon"><img src="./profile-assets/envy-section-recon.svg" width="100%" alt="ENVY Recon — OSINT terminal for macOS, Windows and Linux" /></a>
+      <p><b>⌖ ENVY Recon — see what's public.</b> An OSINT terminal for infrastructure: domains, DNS, RDAP whois, IP ownership, certificate history, the Wayback Machine, HTTP headers and TLS, plus offline file metadata (EXIF and GPS, PDF, Office). It's the one tool that uses the network, and it prints every request before making it.</p>
+      <p><code>DNS · RDAP</code> <code>crt.sh</code> <code>EXIF · GPS</code> <code>--offline</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-recon"><b>Explore Recon →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-recon#install">Install</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/xzchick/envy-tunnel"><img src="https://raw.githubusercontent.com/xzchick/envy-tunnel/main/assets/readme/window.png" width="100%" alt="ENVY Tunnel — self-hosted WireGuard VPN window" /></a>
+      <p><b>⛓ ENVY Tunnel — your own VPN.</b> Sets up standard WireGuard on a Linux server you rent, over your own ssh, then gives each device its own keys: a QR code for phones, a config file for computers, or one click to connect this machine. Add or revoke devices live. No subscription, and no VPN company sees your traffic.</p>
+      <p><code>WireGuard</code> <code>your server</code> <code>QR codes</code> <code>no account</code></p>
+      <p>
+        <a href="https://github.com/xzchick/envy-tunnel"><b>Explore Tunnel →</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/xzchick/envy-tunnel#install">Install</a>
+      </p>
+    </td>
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/xzchick/envy-black-veil"><img src="./profile-assets/envy-project-envy-black-veil.svg" width="92%" alt="ENVY BLACK VEIL — the standalone OS these tools install onto" /></a>
-      <p><b>▚ ENVY BLACK VEIL — the OS they live on.</b> All eleven apps install onto <a href="#veil">BLACK VEIL</a>, my standalone Linux OS, with one command: <code>envy-tools install all</code>. Or run each on macOS and Windows too.</p>
+      <p><b>▚ ENVY BLACK VEIL — the OS they live on.</b> All thirteen apps install onto <a href="#veil">BLACK VEIL</a>, my standalone Linux OS, with one command: <code>envy-tools install all</code>. Or run each on macOS and Windows too.</p>
     </td>
   </tr>
 </table>
@@ -289,7 +309,7 @@ envy-tunnel up laptop        # connect this computer
   <a href="https://github.com/xzchick/envy-vault#works-on"><img src="https://raw.githubusercontent.com/xzchick/envy-vault/main/assets/readme/os-linux.svg" width="24%" alt="Linux: X11 or Wayland window, bundled Python and Qt" /></a>
 </p>
 
-<sub>Native windows, not browser views. Offline; no telemetry, no network, no accounts. Vault protects files; the Workbench is for reversible encodings and teaching ciphers, not security.</sub>
+<sub>Native windows, not browser views. No telemetry and no accounts; everything except Recon and Tunnel is fully offline. Vault protects files; the Workbench is for reversible encodings and teaching ciphers, not security.</sub>
 
 <p align="center"><img src="./profile-assets/envy-divider.svg" width="100%" alt="" /></p>
 
