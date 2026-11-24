@@ -21,6 +21,7 @@
   <a href="#signal"><b>Stats</b></a> &nbsp; · &nbsp;
   <a href="#terminal"><b>Terminal AI</b></a> &nbsp; · &nbsp;
   <a href="#hash"><b>Hash Audit</b></a> &nbsp; · &nbsp;
+  <a href="#recon"><b>Recon</b></a> &nbsp; · &nbsp;
   <a href="#apps"><b>Apps</b></a> &nbsp; · &nbsp;
   <a href="#veil"><b>BLACK VEIL</b></a> &nbsp; · &nbsp;
   <a href="#find"><b>Find me</b></a>
@@ -113,6 +114,28 @@
 </p>
 
 <sub>Local and offline. For hashes you own or are authorized to test; no online lookup, no account testing, no credential collection.</sub>
+
+<a name="recon"></a>
+<p align="center"><img src="./profile-assets/envy-section-recon.svg" width="100%" alt="ENVY Recon" /></p>
+
+**A standalone OSINT terminal for infrastructure and files.** Point it at a domain, IP, URL or file and it pulls together what public sources say (DNS, RDAP/WHOIS, ASN, certificate-transparency logs, the Wayback Machine, TLS and HTTP headers), plus offline EXIF/GPS, PDF and Office metadata. No API keys; every network request is shown, and `--offline` blocks them all.
+
+```text
+recon ▸ domain example.com
+  ↳ DNS example.com (A, AAAA, CNAME, MX, NS, TXT, SOA, CAA)
+  ↳ GET https://rdap.org/domain/example.com
+  ↳ TLS example.com:443
+recon ▸ meta photo.jpg        # offline: hashes, EXIF, GPS → map link
+recon ▸ save case-notes.md    # export the session, with its SHA-256
+```
+
+<p align="center">
+  <a href="https://github.com/xzchick/envy-recon"><b>Explore ENVY Recon →</b></a> &nbsp; · &nbsp;
+  <a href="https://github.com/xzchick/envy-recon#install">Install on macOS, Windows or Linux</a> &nbsp; · &nbsp;
+  <a href="https://xzchick.github.io/homebrew-envy/recon/">Recon's page</a>
+</p>
+
+<sub>Infrastructure and file metadata only; it deliberately doesn't look people up. Use it on targets you're entitled to research.</sub>
 
 <p align="center"><img src="./profile-assets/envy-divider.svg" width="100%" alt="" /></p>
 

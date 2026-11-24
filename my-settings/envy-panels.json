@@ -172,6 +172,13 @@
       "accent": "lavender"
     },
     {
+      "id": "recon",
+      "title": "ENVY Recon",
+      "kicker": "OSINT TERMINAL",
+      "icon": "radar",
+      "accent": "cyan"
+    },
+    {
       "id": "apps",
       "title": "Standalone Apps",
       "kicker": "MAC · WINDOWS · LINUX",
