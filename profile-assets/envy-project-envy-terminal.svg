@@ -8,7 +8,7 @@
     <radialGradient id="pink"><stop stop-color="#a71c7d" stop-opacity=".2"/><stop offset="1" stop-color="#050713" stop-opacity="0"/></radialGradient>
     <clipPath id="clip"><rect x="1" y="1" width="338" height="248" rx="18"/></clipPath>
   </defs>
-  <style>.signal{animation:pulse 7s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:.95}}.sheen{animation:sheen 9s ease-in-out 26.6s infinite}@keyframes sheen{0%{transform:translateX(0)}22%,100%{transform:translateX(600px)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <style>.signal{animation:pulse 7s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:.95}}.sheen{animation:sheen 9s ease-in-out 28.0s infinite}@keyframes sheen{0%{transform:translateX(0)}22%,100%{transform:translateX(600px)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
   <g clip-path="url(#clip)">
     <rect width="340" height="250" fill="#050713"/>
     <ellipse cx="260" cy="125" rx="204" ry="200" fill="url(#cloud)"/>
