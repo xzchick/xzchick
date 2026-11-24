@@ -15,10 +15,10 @@
   ],
   "building": [
     {
-      "repo": "envy-terminal",
-      "name": "ENVY Terminal",
+      "repo": "envy-tools",
+      "name": "ENVY Tools",
       "status": "ACTIVE",
-      "note": "macOS · Windows · Linux, v0.1.0 release in progress"
+      "note": "Installer for every ENVY app on any OS, v0.1.0 in progress"
     },
     {
       "repo": "envy-black-veil",
@@ -27,10 +27,10 @@
       "note": "AlmaLinux + KDE desktop and system toolset"
     },
     {
-      "repo": "hash-audit",
-      "name": "hash-audit",
+      "repo": "envy-terminal",
+      "name": "ENVY Terminal",
       "status": "ACTIVE",
-      "note": "Authorized recovery on macOS, Windows and Linux, v0.1.0 in progress"
+      "note": "macOS · Windows · Linux, v0.1.0 release in progress"
     }
   ],
   "topics": [
