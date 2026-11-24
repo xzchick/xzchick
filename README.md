@@ -22,6 +22,7 @@
   <a href="#terminal"><b>Terminal AI</b></a> &nbsp; · &nbsp;
   <a href="#hash"><b>Hash Audit</b></a> &nbsp; · &nbsp;
   <a href="#recon"><b>Recon</b></a> &nbsp; · &nbsp;
+  <a href="#tunnel"><b>Tunnel</b></a> &nbsp; · &nbsp;
   <a href="#apps"><b>Apps</b></a> &nbsp; · &nbsp;
   <a href="#veil"><b>BLACK VEIL</b></a> &nbsp; · &nbsp;
   <a href="#find"><b>Find me</b></a>
@@ -136,6 +137,26 @@ recon ▸ save case-notes.md    # export the session, with its SHA-256
 </p>
 
 <sub>Infrastructure and file metadata only; it deliberately doesn't look people up. Use it on targets you're entitled to research.</sub>
+
+<a name="tunnel"></a>
+<p align="center"><img src="./profile-assets/envy-section-tunnel.svg" width="100%" alt="ENVY Tunnel" /></p>
+
+**Your own WireGuard VPN, on a server you control.** Point it at a cheap Linux VPS and it sets up standard WireGuard over your own SSH (NAT, IPv6, firewall, systemd), makes each device's keys on that device, and hands you a QR code for the phone app or a config for your computers. No VPN subscription, no ENVY account: you're the provider. A real WireGuard server-and-client test runs in CI on every push.
+
+```text
+envy-tunnel init --host vpn.example.com
+envy-tunnel setup            # WireGuard on your VPS, over ssh
+envy-tunnel add phone --qr   # scan with the WireGuard app
+envy-tunnel up laptop        # connect this computer
+```
+
+<p align="center">
+  <a href="https://github.com/xzchick/envy-tunnel"><b>Explore ENVY Tunnel →</b></a> &nbsp; · &nbsp;
+  <a href="https://github.com/xzchick/envy-tunnel#install">Install on macOS, Windows or Linux</a> &nbsp; · &nbsp;
+  <a href="https://xzchick.github.io/homebrew-envy/tunnel/">Tunnel's page</a>
+</p>
+
+<sub>Privacy on untrusted networks and your own exit point, not anonymity: your VPS provider can see traffic leaving the server.</sub>
 
 <p align="center"><img src="./profile-assets/envy-divider.svg" width="100%" alt="" /></p>
 

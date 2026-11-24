@@ -179,6 +179,13 @@
       "accent": "cyan"
     },
     {
+      "id": "tunnel",
+      "title": "ENVY Tunnel",
+      "kicker": "SELF-HOSTED VPN",
+      "icon": "tunnel",
+      "accent": "pink"
+    },
+    {
       "id": "apps",
       "title": "Standalone Apps",
       "kicker": "MAC · WINDOWS · LINUX",

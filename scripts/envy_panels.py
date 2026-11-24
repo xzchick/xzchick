@@ -304,6 +304,7 @@ ICONS = {
     "twitch": '<path d="M4 3h16v11l-4 4h-4l-3 3v-3H4z"/><path d="M10.5 7.5v4.5M15 7.5v4.5"/>',
     "pulse": '<path d="M2 12h4l3-7 4 14 3-7h6"/>',
     "radar": '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 12l6.4-6.4"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/>',
+    "tunnel": '<path d="M3 20v-8a9 9 0 0 1 18 0v8"/><path d="M7.5 20v-7a4.5 4.5 0 0 1 9 0v7"/><path d="M2 20h20"/><circle cx="12" cy="16.5" r="1.2" fill="currentColor"/>',
     "link": '<path d="M10 14a4.2 4.2 0 0 0 6 0l3-3a4.2 4.2 0 0 0-6-6l-1 1"/><path d="M14 10a4.2 4.2 0 0 0-6 0l-3 3a4.2 4.2 0 0 0 6 6l1-1"/>',
 }
 
