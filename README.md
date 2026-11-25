@@ -14,7 +14,7 @@
 
 <p align="center"><img src="./profile-assets/envy-typing.svg" width="100%" alt="envy@veil:~$ building local AI that stays on your machine" /></p>
 
-<p align="center"><img src="./profile-assets/envy-constellation.svg" width="100%" alt="The ENVY suite: 16 apps orbiting the ENVY core, Vault, Veil, Tunnel, Crypto Workbench, Recon, Casebook, Evidence Vault, Hash Audit, Integrity Monitor, SkyWatch, Orbit, Ops Desk, ENVY Terminal, Hypothesis, Oracle, ENVY Tools" /></p>
+<p align="center"><img src="./profile-assets/envy-constellation.svg" width="100%" alt="The ENVY suite: 16 apps for macOS, Windows and Linux orbiting the ENVY core, Vault, Veil, Tunnel, Crypto Workbench, Recon, Casebook, Evidence Vault, Hash Audit, Integrity Monitor, SkyWatch, Orbit, Ops Desk, ENVY Terminal, Hypothesis, Oracle, ENVY Tools" /></p>
 
 <p align="center">
   <a href="#featured"><b>Featured</b></a> &nbsp; · &nbsp;
@@ -36,7 +36,7 @@
   <a href="https://github.com/xzchick/envy-black-veil"><img src="./profile-assets/envy-project-envy-black-veil.svg" width="32.5%" alt="BLACK VEIL: My own Linux OS: AlmaLinux + KDE Plasma, themed end to end, encrypted, and bootable from a USB drive." /></a>
 </p>
 
-**Start here:** [ENVY Tools](https://github.com/xzchick/envy-tools) installs any app below, checking each download's SHA-256 and Sigstore signature first.
+**Start here:** [ENVY Tools](https://github.com/xzchick/envy-tools) installs the apps below, checking each download's SHA-256 and Sigstore signature first. ENVY Terminal and Hash Audit install from Homebrew or their own releases for now.
 
 ```sh
 # macOS

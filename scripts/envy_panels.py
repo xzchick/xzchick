@@ -373,8 +373,8 @@ def constellation(groups):
                       f'<text x="{lx0 + 12}" y="{h - 23}" font-size="12.5" letter-spacing="1.8" font-weight="600" fill="{MUTED}">{escape(g["kicker"])}</text>')
         lx0 += 30 + _tw(g["kicker"], 12.5, True) + len(g["kicker"]) * 1.8
     head = (f'<text x="34" y="44" font-size="14" letter-spacing="2.6" font-weight="600" fill="{CYAN_SOFT}">THE ENVY SUITE</text>'
-            f'<text x="34" y="70" font-size="13.5" fill="{MUTED}">{n} apps · one installer · macOS · Windows · Linux</text>'
-            f'<text x="{w - 34}" y="{h - 23}" font-size="12.5" fill="{MUTED}" text-anchor="end">signed releases · no telemetry</text>')
+            f'<text x="34" y="70" font-size="13.5" fill="{MUTED}">{n} apps · macOS · Windows · Linux · signed releases</text>'
+            f'<text x="{w - 34}" y="{h - 23}" font-size="12.5" fill="{MUTED}" text-anchor="end">no telemetry · no accounts</text>')
     body = f"""    <defs><radialGradient id="corefog"><stop stop-color="{PINK}" stop-opacity=".45"/><stop offset=".55" stop-color="{VIOLET}" stop-opacity=".18"/><stop offset="1" stop-color="{BG}" stop-opacity="0"/></radialGradient></defs>
     <g>{stars}</g>
     <g fill="none">{''.join(parts)}</g>
