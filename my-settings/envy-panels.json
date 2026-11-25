@@ -18,19 +18,7 @@
       "repo": "envy-black-veil",
       "name": "BLACK VEIL",
       "status": "IN DEVELOPMENT",
-      "note": "AlmaLinux + KDE desktop and system toolset"
-    },
-    {
-      "repo": "envy-terminal",
-      "name": "ENVY Terminal",
-      "status": "ACTIVE",
-      "note": "macOS · Windows · Linux, v0.1.0 release in progress"
-    },
-    {
-      "repo": "hash-audit",
-      "name": "hash-audit",
-      "status": "ACTIVE",
-      "note": "Authorized recovery on macOS, Windows and Linux, v0.1.0 in progress"
+      "note": "AlmaLinux + KDE OS, working toward its first ISO release"
     }
   ],
   "topics": [
@@ -65,42 +53,45 @@
   ],
   "featured": [
     {
+      "repo": "envy-tools",
+      "name": "ENVY Tools",
+      "icon": "box",
+      "accent": "cyan",
+      "kicker": "START HERE",
+      "blurb": "One app that finds, installs and updates every ENVY app on macOS, Windows and Linux. Verified installs.",
+      "tags": [
+        "any OS",
+        "signed",
+        "updates",
+        "no admin"
+      ]
+    },
+    {
       "repo": "envy-terminal",
       "name": "ENVY Terminal",
       "icon": "terminal",
       "accent": "pink",
-      "blurb": "Local AI in your Terminal on macOS, Windows and Linux: fast and deep models, PDF search, cited research.",
+      "kicker": "LOCAL AI",
+      "blurb": "Local AI in your Terminal: fast and deep models, PDF search and research with sources you can check.",
       "tags": [
-        "python",
-        "ai",
-        "terminal",
-        "ollama"
+        "ollama",
+        "private",
+        "cited",
+        "3 OS"
       ]
     },
     {
       "repo": "envy-black-veil",
       "name": "BLACK VEIL",
       "icon": "layers",
-      "accent": "cyan",
-      "blurb": "A Linux world of my own: desktop tools, privacy workflows and recovery maps.",
+      "accent": "lavender",
+      "kicker": "MY OWN OS",
+      "blurb": "My own Linux OS: AlmaLinux + KDE Plasma, themed end to end, encrypted, and bootable from a USB drive.",
       "tags": [
         "linux",
-        "privacy",
-        "tools",
-        "kde"
-      ]
-    },
-    {
-      "repo": "hash-audit",
-      "name": "Hash Audit",
-      "icon": "hash",
-      "accent": "lavender",
-      "blurb": "Terminal hash auditing and authorized recovery on macOS, Windows and Linux. 23 formats, Hashcat + John.",
-      "tags": [
-        "hashcat",
-        "john",
-        "23 formats",
-        "cli"
+        "kde",
+        "luks",
+        "usb boot"
       ]
     }
   ],
@@ -145,10 +136,17 @@
   "sections": [
     {
       "id": "projects",
-      "title": "Featured Projects",
-      "kicker": "WHAT I'M MAKING",
+      "title": "Featured",
+      "kicker": "START WITH THESE",
       "icon": "star",
-      "accent": "pink"
+      "accent": "cyan"
+    },
+    {
+      "id": "working",
+      "title": "Working On",
+      "kicker": "WHAT'S NEXT",
+      "icon": "pulse",
+      "accent": "lavender"
     },
     {
       "id": "signal",
@@ -158,25 +156,11 @@
       "accent": "cyan"
     },
     {
-      "id": "terminal",
-      "title": "ENVY Terminal",
-      "kicker": "LOCAL AI",
-      "icon": "terminal",
-      "accent": "pink"
-    },
-    {
-      "id": "hash",
-      "title": "Hash Audit",
-      "kicker": "AUTHORIZED RECOVERY",
-      "icon": "hash",
-      "accent": "lavender"
-    },
-    {
       "id": "apps",
-      "title": "Standalone Apps",
-      "kicker": "MAC · WINDOWS · LINUX",
-      "icon": "lock",
-      "accent": "cyan"
+      "title": "Every App I've Made",
+      "kicker": "16 APPS · MAC · WINDOWS · LINUX",
+      "icon": "star",
+      "accent": "pink"
     },
     {
       "id": "veil",
@@ -191,6 +175,239 @@
       "kicker": "SAY HELLO",
       "icon": "link",
       "accent": "cyan"
+    }
+  ],
+  "apps": [
+    {
+      "id": "protect",
+      "title": "Protect",
+      "kicker": "PROTECT",
+      "blurb": "Keep what's yours private",
+      "icon": "lock",
+      "accent": "pink",
+      "apps": [
+        {
+          "repo": "envy-vault",
+          "name": "Vault",
+          "short": "Vault",
+          "icon": "lock",
+          "tagline": "Encrypt files and whole folders with AES-256-GCM, offline.",
+          "badge": ""
+        },
+        {
+          "repo": "envy-veil",
+          "name": "Veil",
+          "short": "Veil",
+          "icon": "eye",
+          "tagline": "Hide an encrypted file inside an image or audio file.",
+          "badge": ""
+        },
+        {
+          "repo": "envy-tunnel",
+          "name": "Tunnel",
+          "short": "Tunnel",
+          "icon": "tunnel",
+          "tagline": "Your own WireGuard VPN, on a server you control.",
+          "badge": "NETWORK"
+        },
+        {
+          "repo": "envy-crypto-workbench",
+          "name": "Crypto Workbench",
+          "short": "Crypto",
+          "icon": "cipher",
+          "tagline": "Encodings, classical ciphers and text analysis.",
+          "badge": ""
+        }
+      ]
+    },
+    {
+      "id": "investigate",
+      "title": "Investigate",
+      "kicker": "INVESTIGATE",
+      "blurb": "Find out what's really there",
+      "icon": "search",
+      "accent": "cyan",
+      "apps": [
+        {
+          "repo": "envy-recon",
+          "name": "Recon",
+          "short": "Recon",
+          "icon": "radar",
+          "tagline": "OSINT on domains, IPs, certificates and file metadata.",
+          "badge": "NETWORK"
+        },
+        {
+          "repo": "envy-casebook",
+          "name": "Casebook",
+          "short": "Casebook",
+          "icon": "book",
+          "tagline": "Encrypted case notes with a revision journal.",
+          "badge": ""
+        },
+        {
+          "repo": "envy-evidence-vault",
+          "name": "Evidence Vault",
+          "short": "Evidence",
+          "icon": "fingerprint",
+          "tagline": "Hash-verified file intake with a custody journal.",
+          "badge": ""
+        },
+        {
+          "repo": "hash-audit",
+          "name": "Hash Audit",
+          "short": "Hash Audit",
+          "icon": "hash",
+          "tagline": "Audit hashes you're authorized to test. 23 formats.",
+          "badge": "AUTHORIZED"
+        }
+      ]
+    },
+    {
+      "id": "monitor",
+      "title": "Monitor",
+      "kicker": "MONITOR",
+      "blurb": "Notice when things change",
+      "icon": "pulse",
+      "accent": "lavender",
+      "apps": [
+        {
+          "repo": "envy-integrity-monitor",
+          "name": "Integrity Monitor",
+          "short": "Integrity",
+          "icon": "shield",
+          "tagline": "SHA-256 baselines that show exactly what changed.",
+          "badge": ""
+        },
+        {
+          "repo": "envy-skywatch",
+          "name": "SkyWatch",
+          "short": "SkyWatch",
+          "icon": "scope",
+          "tagline": "Scan files offline against keyword, regex and hash lists.",
+          "badge": ""
+        },
+        {
+          "repo": "envy-orbit",
+          "name": "Orbit",
+          "short": "Orbit",
+          "icon": "orbit",
+          "tagline": "Recurring tasks: see what's overdue, due or on track.",
+          "badge": ""
+        },
+        {
+          "repo": "envy-ops-desk",
+          "name": "Ops Desk",
+          "short": "Ops Desk",
+          "icon": "grid",
+          "tagline": "Encrypted operations plans with verified handoffs.",
+          "badge": ""
+        }
+      ]
+    },
+    {
+      "id": "think",
+      "title": "Think & Build",
+      "kicker": "THINK & BUILD",
+      "blurb": "Reason, research and run it all",
+      "icon": "chip",
+      "accent": "violet",
+      "apps": [
+        {
+          "repo": "envy-terminal",
+          "name": "ENVY Terminal",
+          "short": "Terminal",
+          "icon": "terminal",
+          "tagline": "Local AI in your Terminal, with cited research.",
+          "badge": "LOCAL AI"
+        },
+        {
+          "repo": "envy-hypothesis",
+          "name": "Hypothesis",
+          "short": "Hypothesis",
+          "icon": "branch",
+          "tagline": "Weigh competing explanations against the evidence.",
+          "badge": ""
+        },
+        {
+          "repo": "envy-oracle",
+          "name": "Oracle",
+          "short": "Oracle",
+          "icon": "crystal",
+          "tagline": "Score your forecasts with Brier scores and calibration.",
+          "badge": ""
+        },
+        {
+          "repo": "envy-tools",
+          "name": "ENVY Tools",
+          "short": "Tools",
+          "icon": "box",
+          "tagline": "Install and update every ENVY app on any OS.",
+          "badge": "START HERE"
+        }
+      ]
+    }
+  ],
+  "working": [
+    {
+      "name": "BLACK VEIL",
+      "goal": "first bootable ISO release",
+      "status": "IN DEVELOPMENT",
+      "accent": "lavender",
+      "steps": [
+        {
+          "label": "Build system",
+          "done": true
+        },
+        {
+          "label": "ENVY theme",
+          "done": true
+        },
+        {
+          "label": "Installer branding",
+          "done": true
+        },
+        {
+          "label": "VM + hardware testing"
+        },
+        {
+          "label": "Signed packages"
+        },
+        {
+          "label": "Verified ISO release"
+        },
+        {
+          "label": "Secure Boot"
+        }
+      ]
+    },
+    {
+      "name": "Suite v0.3",
+      "goal": "depth and trust for every app",
+      "status": "ACTIVE",
+      "accent": "cyan",
+      "steps": [
+        {
+          "label": "Signed releases",
+          "done": true
+        },
+        {
+          "label": "SBOMs",
+          "done": true
+        },
+        {
+          "label": "Hardening tests",
+          "done": true
+        },
+        {
+          "label": "Window parity (2 of 11 apps)"
+        },
+        {
+          "label": "Accessibility pass"
+        },
+        {
+          "label": "PyPI packages"
+        }
+      ]
     }
   ]
 }

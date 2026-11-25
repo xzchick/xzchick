@@ -306,7 +306,183 @@ ICONS = {
     "radar": '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 12l6.4-6.4"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/>',
     "tunnel": '<path d="M3 20v-8a9 9 0 0 1 18 0v8"/><path d="M7.5 20v-7a4.5 4.5 0 0 1 9 0v7"/><path d="M2 20h20"/><circle cx="12" cy="16.5" r="1.2" fill="currentColor"/>',
     "link": '<path d="M10 14a4.2 4.2 0 0 0 6 0l3-3a4.2 4.2 0 0 0-6-6l-1 1"/><path d="M14 10a4.2 4.2 0 0 0-6 0l-3 3a4.2 4.2 0 0 0 6 6l1-1"/>',
+    "eye": '<path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+    "cipher": '<rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7.5 8.5h3M7.5 12h9M13.5 15.5h3M7.5 15.5h3M13.5 8.5h3"/>',
+    "book": '<path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H20v15H5.5A1.5 1.5 0 0 0 4 19.5zM4 19.5A1.5 1.5 0 0 0 5.5 21H20"/><path d="M9 8h7M9 11.5h5"/>',
+    "grid": '<rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><path d="M14 17.5l2.2 2.2 4.3-4.4"/>',
+    "fingerprint": '<path d="M6.5 18.5A9 9 0 0 1 5 12a7 7 0 0 1 14 0v1"/><path d="M9 20a12 12 0 0 1-1-5v-3a4 4 0 0 1 8 0v2.5"/><path d="M12 12v3.5a8 8 0 0 0 1.5 4.5"/><path d="M19 16.5a14 14 0 0 1-.5 3"/>',
+    "orbit": '<circle cx="12" cy="12" r="3"/><ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(-25 12 12)"/><circle cx="20" cy="8.2" r="1.3" fill="currentColor"/>',
+    "scope": '<circle cx="12" cy="12" r="8.5"/><path d="M12 1.5v5M12 17.5v5M1.5 12h5M17.5 12h5"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/>',
+    "crystal": '<circle cx="12" cy="10" r="7"/><path d="M6.5 21h11M8 17.5l-1.5 3.5M16 17.5l1.5 3.5"/><path d="M9 8.5a3.5 3.5 0 0 1 3-2.5"/>',
+    "branch": '<circle cx="6" cy="5" r="2.2"/><circle cx="6" cy="19" r="2.2"/><circle cx="18" cy="8" r="2.2"/><path d="M6 7.2v9.6M18 10.2c0 4-6 3.5-11 6.6"/>',
+    "box": '<path d="M12 2.5l8.5 4.7v9.6L12 21.5l-8.5-4.7V7.2z"/><path d="M3.5 7.2 12 12l8.5-4.8M12 12v9.5"/><path d="M8 4.8l8.5 4.8"/>',
 }
+
+ACCENTS = {"pink": PINK, "cyan": CYAN, "lavender": LAVENDER, "violet": "#b07cff"}
+
+
+def _tw(text, size, bold=False):
+    """Rough rendered width of Arial text, for layout."""
+    return len(text) * size * (0.6 if bold else 0.54)
+
+
+def constellation(groups):
+    """The opening animation: every app as a glowing node orbiting the ENVY core,
+    with light flowing out along each link and a comet circling the ring."""
+    w, h, cx, cy, rx, ry = 1000, 470, 500, 244, 318, 168
+    apps = [(g, a) for g in groups for a in g["apps"]]
+    n = len(apps)
+    ring = f"M{cx - rx} {cy}a{rx} {ry} 0 1 0 {2 * rx} 0a{rx} {ry} 0 1 0 {-2 * rx} 0"
+    parts = [
+        f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="none" stroke="{LAVENDER}" stroke-opacity=".22" stroke-width="1.2"/>',
+        f'<ellipse class="spin" cx="{cx}" cy="{cy}" rx="{rx + 26}" ry="{ry + 22}" fill="none" stroke="{CYAN}" stroke-opacity=".18" stroke-dasharray="2 14"/>',
+        f'<ellipse class="spin2" cx="{cx}" cy="{cy}" rx="{rx - 70}" ry="{ry - 52}" fill="none" stroke="{PINK}" stroke-opacity=".16" stroke-dasharray="3 18"/>',
+    ]
+    nodes, labels = [], []
+    for i, (g, a) in enumerate(apps):
+        ang = math.radians(-90 + (i + .5) * 360 / n)
+        x, y = cx + rx * math.cos(ang), cy + ry * math.sin(ang)
+        col = ACCENTS.get(g.get("accent"), PINK)
+        d = (i * .37) % 4
+        parts.append(f'<path class="flow" style="animation-delay:-{d:.2f}s" d="M{cx} {cy}L{x:.1f} {y:.1f}" stroke="{col}" stroke-opacity=".55" stroke-width="1.4" stroke-dasharray="3 11"/>')
+        nodes.append(
+            f'<g><circle class="halo" style="animation-delay:-{(i * .61) % 5:.2f}s" cx="{x:.1f}" cy="{y:.1f}" r="15" fill="{col}" opacity=".18"/>'
+            f'<circle cx="{x:.1f}" cy="{y:.1f}" r="12" fill="{BG}" stroke="{col}" stroke-width="1.6"/>'
+            f'{icon(a["icon"], x - 8, y - 8, 16, col, 2)}</g>')
+        right = math.cos(ang) > 0.08
+        left = math.cos(ang) < -0.08
+        anchor = "start" if right else "end" if left else "middle"
+        lx = x + (22 if right else -22 if left else 0)
+        ly = y + 5 + (0 if (right or left) else (-24 if math.sin(ang) < 0 else 30))
+        labels.append(f'<text x="{lx:.1f}" y="{ly:.1f}" font-size="14.5" font-weight="700" fill="{INK}" text-anchor="{anchor}">{escape(a["short"])}</text>')
+    stars = "".join(
+        f'<circle class="tw" style="animation-delay:-{(k * 1.3) % 6:.1f}s" cx="{(k * 137.5) % w:.0f}" cy="{(k * 89.3) % h:.0f}" r="{.7 + (k % 3) * .35:.2f}" fill="#cfe0ff"/>'
+        for k in range(46))
+    core = f"""<circle class="breathe" cx="{cx}" cy="{cy}" r="74" fill="url(#corefog)"/>
+    <circle cx="{cx}" cy="{cy}" r="48" fill="{BG}" stroke="url(#neon)" stroke-width="2"/>
+    <circle class="spin3" cx="{cx}" cy="{cy}" r="56" fill="none" stroke="url(#neon)" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="40 22 8 22"/>
+    <text x="{cx}" y="{cy + 9}" font-size="26" font-weight="800" letter-spacing="3" fill="url(#neon)" text-anchor="middle" {FONT}>ENVY</text>"""
+    comet = (f'<g><circle r="9" fill="{CYAN}" opacity=".25"/><circle r="3.2" fill="#fff"/>'
+             f'<animateMotion dur="14s" repeatCount="indefinite" path="{ring}"/></g>'
+             f'<g><circle r="7" fill="{PINK}" opacity=".25"/><circle r="2.6" fill="#fff"/>'
+             f'<animateMotion dur="14s" begin="-7s" repeatCount="indefinite" path="{ring}"/></g>')
+    legend, lx0 = [], 34
+    for g in groups:
+        col = ACCENTS.get(g.get("accent"), PINK)
+        legend.append(f'<circle cx="{lx0}" cy="{h - 28}" r="5" fill="{col}"/>'
+                      f'<text x="{lx0 + 12}" y="{h - 23}" font-size="12.5" letter-spacing="1.8" font-weight="600" fill="{MUTED}">{escape(g["kicker"])}</text>')
+        lx0 += 30 + _tw(g["kicker"], 12.5, True) + len(g["kicker"]) * 1.8
+    head = (f'<text x="34" y="44" font-size="14" letter-spacing="2.6" font-weight="600" fill="{CYAN_SOFT}">THE ENVY SUITE</text>'
+            f'<text x="34" y="70" font-size="13.5" fill="{MUTED}">{n} apps · one installer · macOS · Windows · Linux</text>'
+            f'<text x="{w - 34}" y="{h - 23}" font-size="12.5" fill="{MUTED}" text-anchor="end">signed releases · no telemetry</text>')
+    body = f"""    <defs><radialGradient id="corefog"><stop stop-color="{PINK}" stop-opacity=".45"/><stop offset=".55" stop-color="{VIOLET}" stop-opacity=".18"/><stop offset="1" stop-color="{BG}" stop-opacity="0"/></radialGradient></defs>
+    <g>{stars}</g>
+    <g fill="none">{''.join(parts)}</g>
+    {comet}
+    {core}
+    <g>{''.join(nodes)}</g>
+    <g {FONT}>{''.join(labels)}{''.join(legend)}{head}</g>"""
+    css = (f".flow{{animation:flow 4s linear infinite}}@keyframes flow{{to{{stroke-dashoffset:-56}}}}"
+           f".halo{{animation:halo 5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}}@keyframes halo{{0%,100%{{opacity:.08;transform:scale(.8)}}50%{{opacity:.42;transform:scale(1.35)}}}}"
+           f".spin{{animation:dash 30s linear infinite}}.spin2{{animation:dash 22s linear infinite reverse}}@keyframes dash{{to{{stroke-dashoffset:-400}}}}"
+           f".spin3{{animation:rot 18s linear infinite;transform-origin:{cx}px {cy}px}}@keyframes rot{{to{{transform:rotate(360deg)}}}}"
+           f".breathe{{animation:breathe 6s ease-in-out infinite;transform-origin:{cx}px {cy}px}}@keyframes breathe{{0%,100%{{opacity:.7;transform:scale(.92)}}50%{{opacity:1;transform:scale(1.12)}}}}"
+           f".tw{{animation:tw 6s ease-in-out infinite}}@keyframes tw{{0%,100%{{opacity:.15}}50%{{opacity:.8}}}}")
+    names = ", ".join(a["name"] for _g, a in apps)
+    return frame("The ENVY suite", f"{n} apps orbiting the ENVY core: {names}.", body, w, h, rx=22, css=css)
+
+
+def group_label(g, index=0):
+    """A slim heading above each row of app tiles."""
+    w, h = 1000, 54
+    col = ACCENTS.get(g.get("accent"), PINK)
+    tx = 66 + _tw(g["title"], 21, True) + 16
+    run = w - 34 - _tw(g["blurb"], 13) - 18 - tx
+    body = f"""    {icon(g["icon"], 26, 15, 24, col, 2)}
+    <text x="62" y="35" font-size="21" font-weight="700" fill="{INK}" {FONT}>{escape(g["title"])}</text>
+    <text x="{w - 34}" y="34" font-size="13" fill="{MUTED}" text-anchor="end" {FONT}>{escape(g["blurb"])}</text>
+    <path d="M{tx:.0f} 28h{run:.0f}" stroke="{col}" stroke-opacity=".28" stroke-width="1.5"/>
+    <g class="travel"><circle cx="{tx:.0f}" cy="28" r="4.5" fill="{col}" opacity=".35"/><circle cx="{tx:.0f}" cy="28" r="1.8" fill="#fff"/></g>"""
+    css = (f".travel{{animation:travel 6s ease-in-out {index * 1.1:.1f}s infinite}}"
+           f"@keyframes travel{{0%{{transform:translateX(0);opacity:0}}15%,85%{{opacity:1}}100%{{transform:translateX({run:.0f}px);opacity:0}}}}")
+    return frame(g["title"], f"{g['title']}: {g['blurb']}", body, w, h, rx=14, css=css)
+
+
+def app_tile(a, accent_name, index=0):
+    """One app in the grid: a glowing icon, its name, one line, and a staggered sheen."""
+    w, h = 250, 196
+    col = ACCENTS.get(accent_name, PINK)
+    lines = textwrap.wrap(a["tagline"], 27)[:3]
+    tag = "".join(f'<text x="22" y="{118 + i * 20}" font-size="14.5" fill="{MUTED}">{escape(l)}</text>' for i, l in enumerate(lines))
+    name_size = 20 if _tw(a["name"], 20, True) < w - 40 else 17
+    body = f"""    <defs>
+      <radialGradient id="ig"><stop stop-color="{col}" stop-opacity=".45"/><stop offset="1" stop-color="{col}" stop-opacity="0"/></radialGradient>
+      <linearGradient id="sheen"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    </defs>
+    <circle class="glow" cx="46" cy="46" r="34" fill="url(#ig)"/>
+    <circle cx="46" cy="46" r="24" fill="#0a0e22" stroke="{col}" stroke-opacity=".75" stroke-width="1.5"/>
+    <circle class="ring" cx="46" cy="46" r="29" fill="none" stroke="{col}" stroke-opacity=".55" stroke-width="1.2" stroke-dasharray="10 8 2 8"/>
+    {icon(a["icon"], 34, 34, 24, col, 1.9)}
+    <text x="{w - 20}" y="34" font-size="11" letter-spacing="1.6" font-weight="600" fill="{col}" text-anchor="end" {FONT}>{escape(a.get("badge", ""))}</text>
+    <g {FONT}><text x="22" y="96" font-size="{name_size}" font-weight="700" fill="{INK}">{escape(a["name"])}</text>{tag}</g>
+    <path d="M22 {h - 18}h34" stroke="{col}" stroke-width="2"/>
+    <g class="sheen"><rect x="-120" y="-30" width="90" height="{h + 60}" fill="url(#sheen)" transform="skewX(-18)"/></g>"""
+    delay = (index * 0.75) % 12
+    css = (f".sheen{{animation:sheen 12s ease-in-out {delay:.2f}s infinite}}"
+           f"@keyframes sheen{{0%{{transform:translateX(0)}}18%,100%{{transform:translateX({w + 220}px)}}}}"
+           f".ring{{animation:rot 16s linear infinite;transform-origin:46px 46px}}@keyframes rot{{to{{transform:rotate(360deg)}}}}"
+           f".glow{{animation:glow 5s ease-in-out -{index * .45:.2f}s infinite}}@keyframes glow{{0%,100%{{opacity:.35}}50%{{opacity:1}}}}")
+    return frame(a["name"], f"{a['name']}: {a['tagline']}", body, w, h, rx=18, css=css)
+
+
+def now_building(items):
+    """'Working on': each project with its real milestone track, done steps lit,
+    the current step pulsing and a progress bar that fills on a loop."""
+    w = 1000
+    row_h = 132
+    h = 34 + row_h * len(items)
+    rows = []
+    for i, it in enumerate(items):
+        y0 = 52 + i * row_h
+        col = ACCENTS.get(it.get("accent"), PINK)
+        steps = it["steps"]
+        done = sum(1 for s in steps if s.get("done"))
+        cur = next((k for k, s in enumerate(steps) if not s.get("done")), None)
+        x0, x1 = 60, w - 60
+        gap = (x1 - x0) / (len(steps) - 1)
+        frac = (done - 1 + (0.5 if cur is not None else 0)) / (len(steps) - 1) if done else 0.15
+        pill = it["status"]
+        pw = _tw(pill, 11, True) + len(pill) * 1.2 + 24
+        rows.append(f"""    <g {FONT}>
+      <text x="34" y="{y0}" font-size="20" font-weight="700" fill="{INK}">{escape(it["name"])}</text>
+      <text x="{36 + _tw(it["name"], 20, True) + 14:.0f}" y="{y0}" font-size="14" fill="{MUTED}">{escape(it["goal"])}</text>
+      <rect x="{w - 34 - pw:.0f}" y="{y0 - 17}" width="{pw:.0f}" height="24" rx="12" fill="none" stroke="{col}" stroke-opacity=".65"/>
+      <text x="{w - 34 - pw / 2:.0f}" y="{y0 - 1}" font-size="11" letter-spacing="1.2" font-weight="600" fill="{col}" text-anchor="middle">{escape(pill)}</text>
+      <text x="{w - 34}" y="{y0 + 92}" font-size="12.5" fill="{MUTED}" text-anchor="end">{done} of {len(steps)} done</text>
+    </g>
+    <path d="M{x0} {y0 + 38}H{x1}" stroke="{GRID}" stroke-width="4" stroke-linecap="round"/>
+    <path class="fill{i}" d="M{x0} {y0 + 38}H{x0 + (x1 - x0) * frac:.0f}" stroke="{col}" stroke-width="4" stroke-linecap="round"/>""")
+        for k, s in enumerate(steps):
+            x = x0 + k * gap
+            if s.get("done"):
+                dot = f'<circle cx="{x:.0f}" cy="{y0 + 38}" r="8" fill="{col}"/><path d="M{x - 3.5:.1f} {y0 + 38}l2.4 2.6 4.6-5" fill="none" stroke="{BG}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'
+            elif k == cur:
+                dot = (f'<circle class="now" cx="{x:.0f}" cy="{y0 + 38}" r="15" fill="{col}" opacity=".25"/>'
+                       f'<circle cx="{x:.0f}" cy="{y0 + 38}" r="8" fill="{BG}" stroke="{col}" stroke-width="2.5"/>')
+            else:
+                dot = f'<circle cx="{x:.0f}" cy="{y0 + 38}" r="7" fill="{BG}" stroke="{MUTED}" stroke-opacity=".45" stroke-width="1.5"/>'
+            fill = INK if s.get("done") or k == cur else MUTED
+            op = "1" if s.get("done") or k == cur else ".6"
+            lab = "".join(f'<tspan x="{x:.0f}" dy="{0 if j == 0 else 15}">{escape(t)}</tspan>' for j, t in enumerate(textwrap.wrap(s["label"], 15)[:2]))
+            rows.append(f'    {dot}<text y="{y0 + 68}" font-size="12.5" fill="{fill}" opacity="{op}" text-anchor="middle" {FONT}>{lab}</text>')
+    css = "".join(
+        f".fill{i}{{stroke-dasharray:1000;animation:fill 7s ease-out {i * .8:.1f}s infinite}}" for i in range(len(items)))
+    css += ("@keyframes fill{0%{stroke-dashoffset:1000}45%,100%{stroke-dashoffset:0}}"
+            ".now{animation:now 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}"
+            "@keyframes now{0%,100%{opacity:.1;transform:scale(.7)}50%{opacity:.45;transform:scale(1.25)}}")
+    desc = "Working on: " + "; ".join(
+        f"{it['name']} — {it['goal']} ({sum(1 for s in it['steps'] if s.get('done'))} of {len(it['steps'])} steps done)" for it in items) + "."
+    return frame("Working On", desc, "\n".join(rows), w, h, css=css)
 
 
 def icon(name, x, y, size=24, color=CYAN, width=1.8):
@@ -345,7 +521,10 @@ def project_card(p, repo, index=0):
     accent = {"pink": PINK, "cyan": CYAN, "lavender": LAVENDER}.get(p.get("accent"), PINK)
     stars = repo["stargazerCount"] if repo else 0
     lang = (repo or {}).get("primaryLanguage") or {}
-    if stars:
+    if p.get("kicker"):
+        meta = (f'<text x="{w - 24}" y="46" font-size="11.5" letter-spacing="1.8" font-weight="600" fill="{accent}" text-anchor="end">'
+                f'{escape(p["kicker"])}</text>')
+    elif stars:
         meta = f'<text x="{w - 24}" y="47" font-size="15" fill="{INK}" text-anchor="end">★ {stars:,}</text>'
     elif lang:
         meta = (f'<circle cx="{w - 30 - len(lang["name"]) * 7.3:.0f}" cy="42" r="4.5" fill="{accent}"/>'
@@ -359,6 +538,8 @@ def project_card(p, repo, index=0):
     chips, cx = [], 26
     for tag in p.get("tags", [])[:4]:
         cw = len(tag) * 7.4 + 24
+        if cx + cw > w - 20:
+            break
         chips.append(
             f'<rect x="{cx:.0f}" y="196" width="{cw:.0f}" height="28" rx="14" fill="#0b1030" stroke="{accent}" stroke-opacity=".6"/>'
             f'<text x="{cx + cw / 2:.0f}" y="215" font-size="13" fill="{INK}" text-anchor="middle">{escape(tag)}</text>'
@@ -649,8 +830,35 @@ def social_button(s):
     return frame(s["name"], f"Find me on {s['name']}", "    " + body, w, h, rx=14)
 
 
+def static_panels(cfg):
+    """Panels drawn from the config alone (no GitHub data): the constellation,
+    the app grid and the Working On track. `--static` renders just these."""
+    groups = cfg.get("apps", [])
+    out = {}
+    if groups:
+        out["envy-constellation.svg"] = constellation(groups)
+        k = 0
+        for gi, g in enumerate(groups):
+            out[f"envy-group-{g['id']}.svg"] = group_label(g, gi)
+            for a in g["apps"]:
+                out[f"envy-app-{a['repo']}.svg"] = app_tile(a, g.get("accent"), k)
+                k += 1
+    if cfg.get("working"):
+        out["envy-working.svg"] = now_building(cfg["working"])
+    return out
+
+
 def main():
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if "--static" in sys.argv:
+        with open(os.path.join(root, "my-settings", "envy-panels.json")) as f:
+            cfg = json.load(f)
+        out = os.path.join(root, cfg.get("outputDir", "profile-assets"))
+        for name, svg in static_panels(cfg).items():
+            with open(os.path.join(out, name), "w") as f:
+                f.write(svg)
+            print(f"wrote {name}")
+        return
     with open(os.path.join(root, "my-settings", "envy-panels.json")) as f:
         cfg = json.load(f)
     token = os.environ.get("GITHUB_TOKEN") or sys.exit("GITHUB_TOKEN is not set")
@@ -680,6 +888,7 @@ def main():
         panels[f"envy-project-{p['repo']}.svg"] = project_card(p, repos.get(p["repo"]), len(panels))
     for s in cfg.get("social", []):
         panels[f"envy-social-{s['name'].lower().replace(' ', '-')}.svg"] = social_button(s)
+    panels.update(static_panels(cfg))
     for name, svg in panels.items():
         with open(os.path.join(out, name), "w") as f:
             f.write(svg)
