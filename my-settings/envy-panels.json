@@ -359,16 +359,19 @@
           "done": true
         },
         {
+          "label": "USB persistence",
+          "done": true
+        },
+        {
+          "label": "Signed package repo",
+          "done": true
+        },
+        {
+          "label": "Own release identity",
+          "done": true
+        },
+        {
           "label": "Real hardware"
-        },
-        {
-          "label": "Signed package repo"
-        },
-        {
-          "label": "Own release identity"
-        },
-        {
-          "label": "USB persistence"
         }
       ]
     },

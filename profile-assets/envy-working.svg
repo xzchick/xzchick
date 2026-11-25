@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="298" viewBox="0 0 1000 298" role="img" aria-labelledby="title description">
   <title id="title">Working On</title>
-  <desc id="description">Working on: BLACK VEIL — v0.2: on real hardware (1 of 5 steps done); Suite v0.3 — depth and trust for every app (3 of 6 steps done).</desc>
+  <desc id="description">Working on: BLACK VEIL — v0.2: on real hardware (4 of 5 steps done); Suite v0.3 — depth and trust for every app (3 of 6 steps done).</desc>
   <defs>
     <linearGradient id="edge"><stop stop-color="#ff3db4" stop-opacity=".55"/><stop offset=".5" stop-color="#ac8cff" stop-opacity=".2"/><stop offset="1" stop-color="#35e8ff" stop-opacity=".65"/></linearGradient>
     <linearGradient id="neon"><stop stop-color="#ff3db4"/><stop offset="1" stop-color="#35e8ff"/></linearGradient>
@@ -19,15 +19,15 @@
       <text x="170" y="52" font-size="14" fill="#b9c3df">v0.2: on real hardware</text>
       <rect x="895" y="35" width="71" height="24" rx="12" fill="none" stroke="#ac8cff" stroke-opacity=".65"/>
       <text x="931" y="51" font-size="11" letter-spacing="1.2" font-weight="600" fill="#ac8cff" text-anchor="middle">ACTIVE</text>
-      <text x="966" y="144" font-size="12.5" fill="#b9c3df" text-anchor="end">1 of 5 done</text>
+      <text x="966" y="144" font-size="12.5" fill="#b9c3df" text-anchor="end">4 of 5 done</text>
     </g>
     <path d="M60 90H940" stroke="#1a1f3d" stroke-width="4" stroke-linecap="round"/>
-    <path class="fill0" d="M60 90H170" stroke="#ac8cff" stroke-width="4" stroke-linecap="round"/>
+    <path class="fill0" d="M60 90H830" stroke="#ac8cff" stroke-width="4" stroke-linecap="round"/>
     <circle cx="60" cy="90" r="8" fill="#ac8cff"/><path d="M56.5 90l2.4 2.6 4.6-5" fill="none" stroke="#050713" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text y="120" font-size="12.5" fill="#f2f4ff" opacity="1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"><tspan x="60" dy="0">v0.1.0 released</tspan></text>
-    <circle class="now" cx="280" cy="90" r="15" fill="#ac8cff" opacity=".25"/><circle cx="280" cy="90" r="8" fill="#050713" stroke="#ac8cff" stroke-width="2.5"/><text y="120" font-size="12.5" fill="#f2f4ff" opacity="1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"><tspan x="280" dy="0">Real hardware</tspan></text>
-    <circle cx="500" cy="90" r="7" fill="#050713" stroke="#b9c3df" stroke-opacity=".45" stroke-width="1.5"/><text y="120" font-size="12.5" fill="#b9c3df" opacity=".6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"><tspan x="500" dy="0">Signed package</tspan><tspan x="500" dy="15">repo</tspan></text>
-    <circle cx="720" cy="90" r="7" fill="#050713" stroke="#b9c3df" stroke-opacity=".45" stroke-width="1.5"/><text y="120" font-size="12.5" fill="#b9c3df" opacity=".6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"><tspan x="720" dy="0">Own release</tspan><tspan x="720" dy="15">identity</tspan></text>
-    <circle cx="940" cy="90" r="7" fill="#050713" stroke="#b9c3df" stroke-opacity=".45" stroke-width="1.5"/><text y="120" font-size="12.5" fill="#b9c3df" opacity=".6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"><tspan x="940" dy="0">USB persistence</tspan></text>
+    <circle cx="280" cy="90" r="8" fill="#ac8cff"/><path d="M276.5 90l2.4 2.6 4.6-5" fill="none" stroke="#050713" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text y="120" font-size="12.5" fill="#f2f4ff" opacity="1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"><tspan x="280" dy="0">USB persistence</tspan></text>
+    <circle cx="500" cy="90" r="8" fill="#ac8cff"/><path d="M496.5 90l2.4 2.6 4.6-5" fill="none" stroke="#050713" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text y="120" font-size="12.5" fill="#f2f4ff" opacity="1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"><tspan x="500" dy="0">Signed package</tspan><tspan x="500" dy="15">repo</tspan></text>
+    <circle cx="720" cy="90" r="8" fill="#ac8cff"/><path d="M716.5 90l2.4 2.6 4.6-5" fill="none" stroke="#050713" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text y="120" font-size="12.5" fill="#f2f4ff" opacity="1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"><tspan x="720" dy="0">Own release</tspan><tspan x="720" dy="15">identity</tspan></text>
+    <circle class="now" cx="940" cy="90" r="15" fill="#ac8cff" opacity=".25"/><circle cx="940" cy="90" r="8" fill="#050713" stroke="#ac8cff" stroke-width="2.5"/><text y="120" font-size="12.5" fill="#f2f4ff" opacity="1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"><tspan x="940" dy="0">Real hardware</tspan></text>
     <g font-family="Arial, Helvetica, sans-serif">
       <text x="34" y="184" font-size="20" font-weight="700" fill="#f2f4ff">Suite v0.3</text>
       <text x="170" y="184" font-size="14" fill="#b9c3df">depth and trust for every app</text>
