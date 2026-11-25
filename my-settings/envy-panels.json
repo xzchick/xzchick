@@ -17,8 +17,8 @@
     {
       "repo": "envy-black-veil",
       "name": "BLACK VEIL",
-      "status": "IN DEVELOPMENT",
-      "note": "AlmaLinux + KDE OS: ISOs for PCs and Apple Silicon, install-tested in CI; first release next"
+      "status": "RELEASED",
+      "note": "v0.1.0 out: ISOs for PCs and Apple Silicon, install-tested in CI; v0.2 on real hardware next"
     }
   ],
   "topics": [
@@ -86,12 +86,12 @@
       "icon": "layers",
       "accent": "lavender",
       "kicker": "MY OWN OS",
-      "blurb": "My own Linux OS: AlmaLinux + KDE Plasma, themed end to end, encrypted, and bootable from a USB drive.",
+      "blurb": "My own Linux OS, v0.1.0 out now: AlmaLinux + KDE, themed end to end, encrypted, for PCs and Apple Silicon.",
       "tags": [
         "linux",
         "kde",
         "luks",
-        "usb boot"
+        "v0.1.0"
       ]
     }
   ],
@@ -350,35 +350,25 @@
   "working": [
     {
       "name": "BLACK VEIL",
-      "goal": "first ISO release",
-      "status": "IN DEVELOPMENT",
+      "goal": "v0.2: on real hardware",
+      "status": "ACTIVE",
       "accent": "lavender",
       "steps": [
         {
-          "label": "Build system",
+          "label": "v0.1.0 released",
           "done": true
-        },
-        {
-          "label": "ENVY theme",
-          "done": true
-        },
-        {
-          "label": "PC + Apple Silicon ISOs",
-          "done": true
-        },
-        {
-          "label": "Encrypted install tested",
-          "done": true
-        },
-        {
-          "label": "Secure Boot",
-          "done": true
-        },
-        {
-          "label": "Signed ISO release"
         },
         {
           "label": "Real hardware"
+        },
+        {
+          "label": "Signed package repo"
+        },
+        {
+          "label": "Own release identity"
+        },
+        {
+          "label": "USB persistence"
         }
       ]
     },

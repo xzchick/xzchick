@@ -33,7 +33,7 @@
 <p align="center">
   <a href="https://github.com/xzchick/envy-tools"><img src="./profile-assets/envy-project-envy-tools.svg" width="32.5%" alt="ENVY Tools: One app that finds, installs and updates every ENVY app on macOS, Windows and Linux. Verified installs." /></a>
   <a href="https://github.com/xzchick/envy-terminal"><img src="./profile-assets/envy-project-envy-terminal.svg" width="32.5%" alt="ENVY Terminal: Local AI in your Terminal: fast and deep models, PDF search and research with sources you can check." /></a>
-  <a href="https://github.com/xzchick/envy-black-veil"><img src="./profile-assets/envy-project-envy-black-veil.svg" width="32.5%" alt="BLACK VEIL: My own Linux OS: AlmaLinux + KDE Plasma, themed end to end, encrypted, and bootable from a USB drive." /></a>
+  <a href="https://github.com/xzchick/envy-black-veil"><img src="./profile-assets/envy-project-envy-black-veil.svg" width="32.5%" alt="BLACK VEIL: My own Linux OS, v0.1.0 out now: AlmaLinux + KDE, themed end to end, encrypted, for PCs and Apple Silicon." /></a>
 </p>
 
 **Start here:** [ENVY Tools](https://github.com/xzchick/envy-tools) installs every app below, checking each download's SHA-256 and Sigstore signature first.
@@ -52,7 +52,7 @@ envy-tools install vault terminal hash
 <a name="working"></a>
 <p align="center"><img src="./profile-assets/envy-section-working.svg" width="100%" alt="Working On" /></p>
 
-<p align="center"><img src="./profile-assets/envy-working.svg" width="100%" alt="Working on: BLACK VEIL, toward its first ISO release (build system, theme, ISOs for PCs and Apple Silicon, a tested encrypted install and Secure Boot done; a signed ISO release and real-hardware testing next); and suite v0.3 (signed releases, SBOMs and hardening tests done; window parity in progress with 5 of 11 apps done; an accessibility pass and PyPI packages next)" /></p>
+<p align="center"><img src="./profile-assets/envy-working.svg" width="100%" alt="Working on: BLACK VEIL v0.2, on real hardware (v0.1.0 released; real-hardware testing, a signed package repo, its own release identity and USB persistence next); and suite v0.3 (signed releases, SBOMs and hardening tests done; window parity in progress with 5 of 11 apps done; an accessibility pass and PyPI packages next)" /></p>
 
 <p align="center"><img src="./profile-assets/envy-divider.svg" width="100%" alt="" /></p>
 
@@ -110,6 +110,7 @@ envy-tools install vault terminal hash
 <p align="center">
   <img src="https://img.shields.io/badge/BLACK_VEIL-standalone_Linux_OS_·_v0.1.0-ac8cff?style=for-the-badge&labelColor=050713" alt="BLACK VEIL — standalone Linux OS, v0.1.0" />
   <img src="https://img.shields.io/badge/boots_from-USB_·_SSD_·_HDD-35e8ff?style=for-the-badge&labelColor=050713" alt="Boots from external drives" />
+  <a href="https://github.com/xzchick/envy-black-veil/releases/latest"><img src="https://img.shields.io/badge/download-v0.1.0_ISO-ff3db4?style=for-the-badge&labelColor=050713" alt="Download the v0.1.0 ISO" /></a>
 </p>
 
 **My own Linux OS, as a standalone, buildable OS.** AlmaLinux 10 + KDE Plasma 6, themed end to end in ENVY neon: GRUB, the boot splash with its LUKS passphrase prompt, the login screen, the desktop and the terminal. It ships as *just the OS*, and every ENVY app installs onto it with one command, `envy-tools install all`. Install it onto an external SSD, HDD or USB drive and boot it on almost any PC, or try it in a VM with one command on Windows, macOS or Linux. ISOs for PCs and Apple Silicon Macs; every build is booted, installed with full-disk encryption and checked in VMs, with Secure Boot on too. SELinux enforcing, the firewall on, nothing listening, nothing phoning home.
@@ -129,7 +130,7 @@ envy-tools install vault terminal hash
   </tr>
 </table>
 
-<p align="center"><a href="https://github.com/xzchick/envy-black-veil"><b>Explore BLACK VEIL →</b></a></p>
+<p align="center"><a href="https://github.com/xzchick/envy-black-veil/releases/latest"><b>Download v0.1.0 →</b></a> &nbsp; · &nbsp; <a href="https://github.com/xzchick/envy-black-veil"><b>Explore BLACK VEIL →</b></a></p>
 
 <details>
 <summary><b>Inside the workshop — development screenshot</b></summary>
