@@ -18,7 +18,7 @@
       "repo": "envy-black-veil",
       "name": "BLACK VEIL",
       "status": "IN DEVELOPMENT",
-      "note": "AlmaLinux + KDE OS, working toward its first ISO release"
+      "note": "AlmaLinux + KDE OS: ISOs for PCs and Apple Silicon, install-tested in CI; first release next"
     }
   ],
   "topics": [
@@ -350,7 +350,7 @@
   "working": [
     {
       "name": "BLACK VEIL",
-      "goal": "first bootable ISO release",
+      "goal": "first ISO release",
       "status": "IN DEVELOPMENT",
       "accent": "lavender",
       "steps": [
@@ -363,20 +363,22 @@
           "done": true
         },
         {
-          "label": "Installer branding",
+          "label": "PC + Apple Silicon ISOs",
           "done": true
         },
         {
-          "label": "VM + hardware testing"
+          "label": "Encrypted install tested",
+          "done": true
         },
         {
-          "label": "Signed packages"
+          "label": "Secure Boot",
+          "done": true
         },
         {
-          "label": "Verified ISO release"
+          "label": "Signed ISO release"
         },
         {
-          "label": "Secure Boot"
+          "label": "Real hardware"
         }
       ]
     },

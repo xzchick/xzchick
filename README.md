@@ -52,7 +52,7 @@ envy-tools install vault terminal hash
 <a name="working"></a>
 <p align="center"><img src="./profile-assets/envy-section-working.svg" width="100%" alt="Working On" /></p>
 
-<p align="center"><img src="./profile-assets/envy-working.svg" width="100%" alt="Working on: BLACK VEIL, toward its first bootable ISO release (build system, theme and installer branding done; hardware testing, signed packages, a verified ISO and Secure Boot next); and suite v0.3 (signed releases, SBOMs and hardening tests done; window parity in progress with 5 of 11 apps done; an accessibility pass and PyPI packages next)" /></p>
+<p align="center"><img src="./profile-assets/envy-working.svg" width="100%" alt="Working on: BLACK VEIL, toward its first ISO release (build system, theme, ISOs for PCs and Apple Silicon, a tested encrypted install and Secure Boot done; a signed ISO release and real-hardware testing next); and suite v0.3 (signed releases, SBOMs and hardening tests done; window parity in progress with 5 of 11 apps done; an accessibility pass and PyPI packages next)" /></p>
 
 <p align="center"><img src="./profile-assets/envy-divider.svg" width="100%" alt="" /></p>
 
@@ -112,7 +112,7 @@ envy-tools install vault terminal hash
   <img src="https://img.shields.io/badge/boots_from-USB_·_SSD_·_HDD-35e8ff?style=for-the-badge&labelColor=050713" alt="Boots from external drives" />
 </p>
 
-**My own Linux OS, as a standalone, buildable OS.** AlmaLinux 10 + KDE Plasma 6, themed end to end in ENVY neon: GRUB, the boot splash with its LUKS passphrase prompt, the login screen, the desktop and the terminal. It ships as *just the OS*, and every ENVY app installs onto it with one command, `envy-tools install all`. Install it onto an external SSD, HDD or USB drive and boot it on almost any PC. SELinux enforcing, the firewall on, nothing listening.
+**My own Linux OS, as a standalone, buildable OS.** AlmaLinux 10 + KDE Plasma 6, themed end to end in ENVY neon: GRUB, the boot splash with its LUKS passphrase prompt, the login screen, the desktop and the terminal. It ships as *just the OS*, and every ENVY app installs onto it with one command, `envy-tools install all`. Install it onto an external SSD, HDD or USB drive and boot it on almost any PC, or try it in a VM with one command on Windows, macOS or Linux. ISOs for PCs and Apple Silicon Macs; every build is booted, installed with full-disk encryption and checked in VMs, with Secure Boot on too. SELinux enforcing, the firewall on, nothing listening, nothing phoning home.
 
 <table>
   <tr>
