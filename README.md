@@ -52,7 +52,7 @@ envy-tools install vault terminal hash
 <a name="working"></a>
 <p align="center"><img src="./profile-assets/envy-section-working.svg" width="100%" alt="Working On" /></p>
 
-<p align="center"><img src="./profile-assets/envy-working.svg" width="100%" alt="Working on: BLACK VEIL, toward its first bootable ISO release (build system, theme and installer branding done; hardware testing, signed packages, a verified ISO and Secure Boot next); and suite v0.3 (signed releases, SBOMs and hardening tests done; window parity, an accessibility pass and PyPI packages next)" /></p>
+<p align="center"><img src="./profile-assets/envy-working.svg" width="100%" alt="Working on: BLACK VEIL, toward its first bootable ISO release (build system, theme and installer branding done; hardware testing, signed packages, a verified ISO and Secure Boot next); and suite v0.3 (signed releases, SBOMs and hardening tests done; window parity in progress with 5 of 11 apps done; an accessibility pass and PyPI packages next)" /></p>
 
 <p align="center"><img src="./profile-assets/envy-divider.svg" width="100%" alt="" /></p>
 
