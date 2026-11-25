@@ -36,7 +36,7 @@
   <a href="https://github.com/xzchick/envy-black-veil"><img src="./profile-assets/envy-project-envy-black-veil.svg" width="32.5%" alt="BLACK VEIL: My own Linux OS: AlmaLinux + KDE Plasma, themed end to end, encrypted, and bootable from a USB drive." /></a>
 </p>
 
-**Start here:** [ENVY Tools](https://github.com/xzchick/envy-tools) installs the apps below, checking each download's SHA-256 and Sigstore signature first. ENVY Terminal and Hash Audit install from Homebrew or their own releases for now.
+**Start here:** [ENVY Tools](https://github.com/xzchick/envy-tools) installs every app below, checking each download's SHA-256 and Sigstore signature first.
 
 ```sh
 # macOS
@@ -44,7 +44,7 @@ brew install --cask xzchick/envy/envy-tools
 # Linux
 curl -fsSL https://raw.githubusercontent.com/xzchick/envy-tools/main/install.sh | sh
 # then pick your apps
-envy-tools install vault recon tunnel
+envy-tools install vault terminal hash
 ```
 
 <sub>Windows: download ENVY Tools from its <a href="https://github.com/xzchick/envy-tools/releases/latest">latest release</a>. Every app also has its own page on the <a href="https://xzchick.github.io/homebrew-envy/">suite site</a>.</sub>

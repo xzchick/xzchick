@@ -58,7 +58,7 @@
       "icon": "box",
       "accent": "cyan",
       "kicker": "START HERE",
-      "blurb": "One app that finds, installs and updates ENVY apps on macOS, Windows and Linux. Verified installs.",
+      "blurb": "One app that finds, installs and updates every ENVY app on macOS, Windows and Linux. Verified installs.",
       "tags": [
         "any OS",
         "signed",
@@ -341,7 +341,7 @@
           "name": "ENVY Tools",
           "short": "Tools",
           "icon": "box",
-          "tagline": "Install and update ENVY apps on any OS, with verified downloads.",
+          "tagline": "Install and update every ENVY app on any OS.",
           "badge": "START HERE"
         }
       ]
