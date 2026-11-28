@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title description">
   <title id="title">Contribution Activity</title>
-  <desc id="description">707 contributions in the last 30 days, 725 this year, 0 day streak.</desc>
+  <desc id="description">699 contributions in the last 30 days, 725 this year, 0 day streak.</desc>
   <defs>
     <linearGradient id="edge"><stop stop-color="#ff3db4" stop-opacity=".55"/><stop offset=".5" stop-color="#ac8cff" stop-opacity=".2"/><stop offset="1" stop-color="#35e8ff" stop-opacity=".65"/></linearGradient>
     <linearGradient id="neon"><stop stop-color="#ff3db4"/><stop offset="1" stop-color="#35e8ff"/></linearGradient>
@@ -22,15 +22,15 @@
     <path d="M95 96h24" stroke="#ac8cff" stroke-opacity=".4" stroke-width="2"/>
     <defs><linearGradient id="fill" x2="0" y2="1"><stop stop-color="#ff3db4" stop-opacity=".35"/><stop offset="1" stop-color="#35e8ff" stop-opacity="0"/></linearGradient></defs>
     <path d="M34 270.0H470" stroke="#1a1f3d" stroke-dasharray="3 5"/><path d="M34 194.0H470" stroke="#1a1f3d" stroke-dasharray="3 5"/><path d="M34 118.0H470" stroke="#1a1f3d" stroke-dasharray="3 5"/>
-    <path d="M34,270 L34.0,263.6 L49.0,259.7 L64.1,270.0 L79.1,250.1 L94.1,263.6 L109.2,266.0 L124.2,270.0 L139.2,268.4 L154.3,257.3 L169.3,265.2 L184.3,118.0 L199.4,175.3 L214.4,257.3 L229.4,270.0 L244.5,270.0 L259.5,265.2 L274.6,241.4 L289.6,181.7 L304.6,250.9 L319.7,268.4 L334.7,270.0 L349.7,270.0 L364.8,270.0 L379.8,270.0 L394.8,270.0 L409.9,254.9 L424.9,215.1 L439.9,245.3 L455.0,270.0 L470.0,270.0 L470,270 Z" fill="url(#fill)"/>
-    <polyline class="draw" points="34.0,263.6 49.0,259.7 64.1,270.0 79.1,250.1 94.1,263.6 109.2,266.0 124.2,270.0 139.2,268.4 154.3,257.3 169.3,265.2 184.3,118.0 199.4,175.3 214.4,257.3 229.4,270.0 244.5,270.0 259.5,265.2 274.6,241.4 289.6,181.7 304.6,250.9 319.7,268.4 334.7,270.0 349.7,270.0 364.8,270.0 379.8,270.0 394.8,270.0 409.9,254.9 424.9,215.1 439.9,245.3 455.0,270.0 470.0,270.0" fill="none" stroke="url(#neon)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="903"/>
+    <path d="M34,270 L34.0,259.7 L49.0,270.0 L64.1,250.1 L79.1,263.6 L94.1,266.0 L109.2,270.0 L124.2,268.4 L139.2,257.3 L154.3,265.2 L169.3,118.0 L184.3,175.3 L199.4,257.3 L214.4,270.0 L229.4,270.0 L244.5,265.2 L259.5,241.4 L274.6,181.7 L289.6,250.9 L304.6,268.4 L319.7,270.0 L334.7,270.0 L349.7,270.0 L364.8,270.0 L379.8,270.0 L394.8,254.9 L409.9,215.1 L424.9,245.3 L439.9,270.0 L455.0,270.0 L470.0,270.0 L470,270 Z" fill="url(#fill)"/>
+    <polyline class="draw" points="34.0,259.7 49.0,270.0 64.1,250.1 79.1,263.6 94.1,266.0 109.2,270.0 124.2,268.4 139.2,257.3 154.3,265.2 169.3,118.0 184.3,175.3 199.4,257.3 214.4,270.0 229.4,270.0 244.5,265.2 259.5,241.4 274.6,181.7 289.6,250.9 304.6,268.4 319.7,270.0 334.7,270.0 349.7,270.0 364.8,270.0 379.8,270.0 394.8,254.9 409.9,215.1 424.9,245.3 439.9,270.0 455.0,270.0 470.0,270.0" fill="none" stroke="url(#neon)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="903"/>
     <circle class="signal" cx="470.0" cy="270.0" r="9" fill="#35e8ff" fill-opacity=".3"/>
     <circle cx="470.0" cy="270.0" r="4" fill="#9bf7ff"/>
     <g font-family="Arial, Helvetica, sans-serif">
-      <text x="34" y="292" font-size="12" fill="#b9c3df">Oct 29</text>
-      <text x="470" y="292" font-size="12" fill="#b9c3df" text-anchor="end">Nov 27</text>
+      <text x="34" y="292" font-size="12" fill="#b9c3df">Oct 30</text>
+      <text x="470" y="292" font-size="12" fill="#b9c3df" text-anchor="end">Nov 28</text>
       <text x="30" y="112" font-size="11" fill="#b9c3df" opacity=".7">191/day</text>
-      <text x="512" y="132" font-size="24" font-weight="700" fill="#ff3db4">725</text><text x="512" y="150" font-size="12" fill="#b9c3df">contributions this year</text><text x="512" y="176" font-size="24" font-weight="700" fill="#6ceaff">707</text><text x="512" y="194" font-size="12" fill="#b9c3df">in the last 30 days</text><text x="512" y="220" font-size="24" font-weight="700" fill="#ac8cff">0</text><text x="512" y="238" font-size="12" fill="#b9c3df">day streak</text><text x="512" y="264" font-size="24" font-weight="700" fill="#f2f4ff">191</text><text x="512" y="282" font-size="12" fill="#b9c3df">best day · Nov 8</text>
+      <text x="512" y="132" font-size="24" font-weight="700" fill="#ff3db4">725</text><text x="512" y="150" font-size="12" fill="#b9c3df">contributions this year</text><text x="512" y="176" font-size="24" font-weight="700" fill="#6ceaff">699</text><text x="512" y="194" font-size="12" fill="#b9c3df">in the last 30 days</text><text x="512" y="220" font-size="24" font-weight="700" fill="#ac8cff">0</text><text x="512" y="238" font-size="12" fill="#b9c3df">day streak</text><text x="512" y="264" font-size="24" font-weight="700" fill="#f2f4ff">191</text><text x="512" y="282" font-size="12" fill="#b9c3df">best day · Nov 8</text>
     </g>
   </g>
   <rect x=".75" y=".75" width="718.5" height="318.5" rx="20" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
